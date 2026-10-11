@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://dd4r6rcqplfa"]
+
+[ext_resource type="MeshLibrary" uid="uid://cfombxkffj1lr" path="res://Assets/World/Mesh Lib/NewWorldTiles.tres" id="1_bo1nx"]
+[ext_resource type="PackedScene" uid="uid://drm0badrm7uum" path="res://Scenes/tofu_car.tscn" id="2_8gbba"]
+
+[node name="Main" type="Node3D" unique_id=401222247]
+
+[node name="GridMap" type="GridMap" parent="." unique_id=1647177493]
+transform = Transform3D(100, 0, 0, 0, 100, 0, 0, 0, 100, 0, 0, 0)
+mesh_library = ExtResource("1_bo1nx")
+cell_size = Vector3(1, 0.1, 1)
+data = {
+"cells": PackedInt32Array(65535, 65535, 22, 65527, 3, 655442, 65528, 3, 655442, 65529, 3, 655442, 65530, 3, 655442, 65531, 3, 655442, 65532, 3, 655442, 65533, 3, 655442, 65534, 3, 655442, 65534, 65535, 655442, 65533, 65535, 655442, 65532, 65535, 655442, 65531, 65535, 655442, 65530, 65535, 655442, 65529, 65535, 655442, 65528, 65535, 655442, 65527, 65535, 655442, 65526, 0, 1048658, 65526, 1, 1048658, 65526, 2, 1048658, 65535, 0, 1048658, 65535, 1, 1048658, 65535, 2, 1048658, 65535, 3, 1441814, 65526, 3, 655382, 65526, 65535, 1048598)
+}
+
+[node name="Tofu Car" parent="." unique_id=1908535123 instance=ExtResource("2_8gbba")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -132.77658, 18.14672, -32.770264)

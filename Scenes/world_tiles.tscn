@@ -1,0 +1,482 @@
+[gd_scene format=4 uid="uid://bt6sit1vacmv8"]
+
+[ext_resource type="PackedScene" uid="uid://uma55k3156ol" path="res://Assets/World/GLB format/bridge-pillar-wide.glb" id="1_3vqxb"]
+[ext_resource type="PackedScene" uid="uid://7jq1m6if05aw" path="res://Assets/World/GLB format/bridge-pillar.glb" id="2_pqwt4"]
+[ext_resource type="PackedScene" uid="uid://cok0ojulgu5gh" path="res://Assets/World/GLB format/construction-barrier.glb" id="3_4leoq"]
+[ext_resource type="PackedScene" uid="uid://d2u616e48ihs1" path="res://Assets/World/GLB format/construction-cone.glb" id="4_4x58r"]
+[ext_resource type="PackedScene" uid="uid://b0gl0xe4cbm44" path="res://Assets/World/GLB format/construction-fence.glb" id="5_q0w4p"]
+[ext_resource type="PackedScene" uid="uid://dedh4labsae2w" path="res://Assets/World/GLB format/construction-light.glb" id="6_ljv5u"]
+[ext_resource type="PackedScene" uid="uid://cue44yk4y1adf" path="res://Assets/World/GLB format/dumpster.glb" id="7_jrnli"]
+[ext_resource type="PackedScene" uid="uid://cjqpmfsymqoik" path="res://Assets/World/GLB format/electricity-pole-single.glb" id="8_w7a5x"]
+[ext_resource type="PackedScene" uid="uid://bbqphq7l510vn" path="res://Assets/World/GLB format/electricity-pole-wide.glb" id="9_ywca7"]
+[ext_resource type="PackedScene" uid="uid://ct7evsa733drg" path="res://Assets/World/GLB format/electricity-pole.glb" id="10_wdu5h"]
+[ext_resource type="PackedScene" uid="uid://bwcy3kl35a6t2" path="res://Assets/World/GLB format/electricity-side-single.glb" id="11_pp8ae"]
+[ext_resource type="PackedScene" uid="uid://b8m3eea1nagyy" path="res://Assets/World/GLB format/electricity-side-wide.glb" id="12_b8q52"]
+[ext_resource type="PackedScene" uid="uid://du63v8x00ug11" path="res://Assets/World/GLB format/electricity-side.glb" id="13_sdi8f"]
+[ext_resource type="PackedScene" uid="uid://cemm687i4vb66" path="res://Assets/World/GLB format/electricity-wires-wide.glb" id="14_lhu53"]
+[ext_resource type="PackedScene" uid="uid://b6gt6m5mbcav6" path="res://Assets/World/GLB format/electricity-wires.glb" id="15_lm4qa"]
+[ext_resource type="PackedScene" uid="uid://e0i7mggxsgnv" path="res://Assets/World/GLB format/light-curved-cross.glb" id="16_3puib"]
+[ext_resource type="PackedScene" uid="uid://lloofj7kmhw7" path="res://Assets/World/GLB format/light-curved-double.glb" id="17_m7u8h"]
+[ext_resource type="PackedScene" uid="uid://bgn8rggduhmvk" path="res://Assets/World/GLB format/light-curved.glb" id="18_jep3q"]
+[ext_resource type="PackedScene" uid="uid://b5fitawlr12fj" path="res://Assets/World/GLB format/light-square-cross.glb" id="19_8icmq"]
+[ext_resource type="PackedScene" uid="uid://cqvemhpbbfb57" path="res://Assets/World/GLB format/light-square-double.glb" id="20_rofkl"]
+[ext_resource type="PackedScene" uid="uid://y4jfcch0njff" path="res://Assets/World/GLB format/light-square.glb" id="21_qx6i0"]
+[ext_resource type="PackedScene" uid="uid://bkw3jvp22t30t" path="res://Assets/World/GLB format/road-bend-barrier.glb" id="22_yg8hs"]
+[ext_resource type="PackedScene" uid="uid://crdibwol8mdlm" path="res://Assets/World/GLB format/road-bend-sidewalk.glb" id="23_f8j6l"]
+[ext_resource type="PackedScene" uid="uid://borxb8j0dhdr5" path="res://Assets/World/GLB format/road-bend-square-barrier.glb" id="24_4jomi"]
+[ext_resource type="PackedScene" uid="uid://ceyl1ekht8vbw" path="res://Assets/World/GLB format/road-bend-square.glb" id="25_kx0ai"]
+[ext_resource type="PackedScene" uid="uid://dqpo73no8i4b3" path="res://Assets/World/GLB format/road-bend.glb" id="26_270om"]
+[ext_resource type="PackedScene" uid="uid://7emh3cxbl7us" path="res://Assets/World/GLB format/road-bridge.glb" id="27_sbxg3"]
+[ext_resource type="PackedScene" uid="uid://dmq58ap4nc60p" path="res://Assets/World/GLB format/road-crossing.glb" id="28_d8aj1"]
+[ext_resource type="PackedScene" uid="uid://cyls0g2vjiw0e" path="res://Assets/World/GLB format/road-crossroad-barrier.glb" id="29_g0leb"]
+[ext_resource type="PackedScene" uid="uid://5jnt28l3d8rb" path="res://Assets/World/GLB format/road-crossroad-line.glb" id="30_5u6x2"]
+[ext_resource type="PackedScene" uid="uid://dtkw22iip0i7d" path="res://Assets/World/GLB format/road-crossroad-path.glb" id="31_hrofc"]
+[ext_resource type="PackedScene" uid="uid://ds12rnao8ea2p" path="res://Assets/World/GLB format/road-crossroad.glb" id="32_qvixx"]
+[ext_resource type="PackedScene" uid="uid://1vfd484plvma" path="res://Assets/World/GLB format/road-curve-barrier.glb" id="33_0m14h"]
+[ext_resource type="PackedScene" uid="uid://cjahdepb8oea5" path="res://Assets/World/GLB format/road-curve-intersection-barrier.glb" id="34_tp4qu"]
+[ext_resource type="PackedScene" uid="uid://y3iuwyppn1c4" path="res://Assets/World/GLB format/road-curve-intersection.glb" id="35_vboaf"]
+[ext_resource type="PackedScene" uid="uid://dowmnoeagnvfc" path="res://Assets/World/GLB format/road-curve-pavement.glb" id="36_r76ec"]
+[ext_resource type="Texture2D" uid="uid://trdj4u0qsrcc" path="res://Assets/World/GLB format/Textures/colormap.png" id="37_eqk8j"]
+[ext_resource type="PackedScene" uid="uid://cd0j6kik4kq5e" path="res://Assets/World/GLB format/road-driveway-double-barrier.glb" id="38_aj0yv"]
+[ext_resource type="PackedScene" uid="uid://dwgv34dyqewkp" path="res://Assets/World/GLB format/road-driveway-double.glb" id="39_062r3"]
+[ext_resource type="PackedScene" uid="uid://bwncm0occ4hl7" path="res://Assets/World/GLB format/road-driveway-single-barrier.glb" id="40_rng68"]
+[ext_resource type="PackedScene" uid="uid://7wbmqbxn8aje" path="res://Assets/World/GLB format/road-driveway-single.glb" id="41_rh5n0"]
+[ext_resource type="PackedScene" uid="uid://ck0xhg4qa8r3y" path="res://Assets/World/GLB format/road-end-barrier.glb" id="42_850pl"]
+[ext_resource type="PackedScene" uid="uid://dd55uwhbcne0o" path="res://Assets/World/GLB format/road-end-round-barrier.glb" id="43_263bu"]
+[ext_resource type="PackedScene" uid="uid://bc70g706a1cqy" path="res://Assets/World/GLB format/road-end-round.glb" id="44_j2oxg"]
+[ext_resource type="PackedScene" uid="uid://j8c1wi4qqs27" path="res://Assets/World/GLB format/road-end.glb" id="45_m1yxw"]
+[ext_resource type="PackedScene" uid="uid://c34rwiyxg72lr" path="res://Assets/World/GLB format/road-intersection-barrier.glb" id="46_enk07"]
+[ext_resource type="PackedScene" uid="uid://bkoajc0op2r1u" path="res://Assets/World/GLB format/road-intersection-line.glb" id="47_x0sa0"]
+[ext_resource type="PackedScene" uid="uid://cyu0qrpvj6fd8" path="res://Assets/World/GLB format/road-intersection-path.glb" id="48_j2t0m"]
+[ext_resource type="PackedScene" uid="uid://bpgta8b28wl2d" path="res://Assets/World/GLB format/road-intersection.glb" id="49_xmfml"]
+[ext_resource type="PackedScene" uid="uid://cdj2ff554wetx" path="res://Assets/World/GLB format/road-roundabout-barrier.glb" id="50_q067t"]
+[ext_resource type="PackedScene" uid="uid://dhfv6boeh7flj" path="res://Assets/World/GLB format/road-roundabout.glb" id="51_7ps37"]
+[ext_resource type="PackedScene" uid="uid://dhlhfllertc4x" path="res://Assets/World/GLB format/road-side-barrier.glb" id="52_evure"]
+[ext_resource type="PackedScene" uid="uid://csjnl0e3amhqx" path="res://Assets/World/GLB format/road-side-entry-barrier.glb" id="53_6fhy3"]
+[ext_resource type="PackedScene" uid="uid://bb476h2va3ify" path="res://Assets/World/GLB format/road-side-entry.glb" id="54_86tiq"]
+[ext_resource type="PackedScene" uid="uid://5y4e1h0ebjjx" path="res://Assets/World/GLB format/road-side-exit-barrier.glb" id="55_8wvg6"]
+[ext_resource type="PackedScene" uid="uid://cc57cwusv2egf" path="res://Assets/World/GLB format/road-side-exit.glb" id="56_gk7kx"]
+[ext_resource type="PackedScene" uid="uid://c7xljf0ld7lj0" path="res://Assets/World/GLB format/road-side.glb" id="57_amaap"]
+[ext_resource type="PackedScene" uid="uid://wowrkaf7auwq" path="res://Assets/World/GLB format/road-sign-empty-hanging.glb" id="58_x4pt8"]
+[ext_resource type="PackedScene" uid="uid://36anjp71ud1j" path="res://Assets/World/GLB format/road-sign-empty.glb" id="59_gyu41"]
+[ext_resource type="PackedScene" uid="uid://bvaf84askihqk" path="res://Assets/World/GLB format/road-sign-object-stop.glb" id="60_2gk2q"]
+[ext_resource type="PackedScene" uid="uid://cvxc43vdhtphp" path="res://Assets/World/GLB format/road-sign-object-street.glb" id="61_ebbiw"]
+[ext_resource type="PackedScene" uid="uid://dswaj3sp3g5iv" path="res://Assets/World/GLB format/road-sign-object-warning.glb" id="62_8714i"]
+[ext_resource type="PackedScene" uid="uid://c5os7mifaht46" path="res://Assets/World/GLB format/road-sign-stop.glb" id="63_fkprd"]
+[ext_resource type="PackedScene" uid="uid://nt4e0461xl2i" path="res://Assets/World/GLB format/road-sign-street.glb" id="64_l183f"]
+[ext_resource type="PackedScene" uid="uid://cw3cb2vbbqgqo" path="res://Assets/World/GLB format/road-sign-warning.glb" id="65_woit8"]
+[ext_resource type="PackedScene" uid="uid://b3mj5hq16ogtq" path="res://Assets/World/GLB format/road-slant-barrier.glb" id="66_xvycg"]
+[ext_resource type="PackedScene" uid="uid://cs6a2y1obt76t" path="res://Assets/World/GLB format/road-slant-curve-barrier.glb" id="67_6fe2l"]
+[ext_resource type="PackedScene" uid="uid://ba7ovwxorj1mj" path="res://Assets/World/GLB format/road-slant-curve.glb" id="68_fdexd"]
+[ext_resource type="PackedScene" uid="uid://6fkvnllig7td" path="res://Assets/World/GLB format/road-slant-flat-curve.glb" id="69_4rl3u"]
+[ext_resource type="PackedScene" uid="uid://civbryprryp85" path="res://Assets/World/GLB format/road-slant-flat-high.glb" id="70_ttkrq"]
+[ext_resource type="PackedScene" uid="uid://behg6awfgsmna" path="res://Assets/World/GLB format/road-slant-flat.glb" id="71_mokxc"]
+[ext_resource type="PackedScene" uid="uid://bp1des0nc12wm" path="res://Assets/World/GLB format/road-slant-high-barrier.glb" id="72_4ymsq"]
+[ext_resource type="PackedScene" uid="uid://de76hhdbsytpw" path="res://Assets/World/GLB format/road-slant-high.glb" id="73_08ml6"]
+[ext_resource type="PackedScene" uid="uid://xj251d4opn3i" path="res://Assets/World/GLB format/road-slant.glb" id="74_l7np7"]
+[ext_resource type="PackedScene" uid="uid://bi0g66bbhr5nl" path="res://Assets/World/GLB format/road-split-barrier.glb" id="75_i6wp6"]
+[ext_resource type="PackedScene" uid="uid://hwp8ovw7nihy" path="res://Assets/World/GLB format/road-split.glb" id="76_qxjyj"]
+[ext_resource type="PackedScene" uid="uid://cgf6wobahbmxl" path="res://Assets/World/GLB format/road-square-barrier.glb" id="77_4vrxw"]
+[ext_resource type="PackedScene" uid="uid://c488fwdjkobn2" path="res://Assets/World/GLB format/road-square.glb" id="78_lkf71"]
+[ext_resource type="PackedScene" uid="uid://dy4rpfpciktxb" path="res://Assets/World/GLB format/road-straight-barrier-end.glb" id="79_j3ilc"]
+[ext_resource type="PackedScene" uid="uid://dq5bsshy175ji" path="res://Assets/World/GLB format/road-straight-barrier-half.glb" id="80_ma5md"]
+[ext_resource type="PackedScene" uid="uid://civs4gdb3wfhe" path="res://Assets/World/GLB format/road-straight-barrier.glb" id="81_33dco"]
+[ext_resource type="PackedScene" uid="uid://dvu5a2t6uuofv" path="res://Assets/World/GLB format/road-straight-half.glb" id="82_xm8gg"]
+[ext_resource type="PackedScene" uid="uid://bxo50lbhniuxi" path="res://Assets/World/GLB format/sign-highway-detailed.glb" id="84_baijl"]
+[ext_resource type="PackedScene" uid="uid://b3g8876l0es7w" path="res://Assets/World/GLB format/sign-highway-wide.glb" id="85_3akw2"]
+[ext_resource type="PackedScene" uid="uid://bdq0ipm2hg716" path="res://Assets/World/GLB format/sign-highway.glb" id="86_0gc6u"]
+[ext_resource type="PackedScene" uid="uid://c77e2cakgkihb" path="res://Assets/World/GLB format/tile-high.glb" id="87_ju14a"]
+[ext_resource type="PackedScene" uid="uid://b53i6mwsamiv2" path="res://Assets/World/GLB format/tile-low.glb" id="88_8ur71"]
+[ext_resource type="PackedScene" uid="uid://dpthdg2pwns5h" path="res://Assets/World/GLB format/tile-slant.glb" id="89_s68kt"]
+[ext_resource type="PackedScene" uid="uid://k7f37thov2eh" path="res://Assets/World/GLB format/tile-slantHigh.glb" id="90_qx7nj"]
+[ext_resource type="PackedScene" uid="uid://c7hleg47ub6wr" path="res://Assets/World/GLB format/traffic-light-hanging.glb" id="91_5ack8"]
+[ext_resource type="PackedScene" uid="uid://djm6q515nnasr" path="res://Assets/World/GLB format/traffic-light-object-hanging.glb" id="92_ll3vw"]
+[ext_resource type="PackedScene" uid="uid://bjm6vfkwylbks" path="res://Assets/World/GLB format/traffic-light-object-horizontal.glb" id="93_sb2mf"]
+[ext_resource type="PackedScene" uid="uid://cdflwt2sabh68" path="res://Assets/World/GLB format/traffic-light-object-vertical.glb" id="94_0jjs2"]
+[ext_resource type="PackedScene" uid="uid://bxq4o2jenad3i" path="res://Assets/World/GLB format/traffic-light.glb" id="95_cx3ef"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_dhvto"]
+resource_name = "colormap"
+cull_mode = 2
+albedo_texture = ExtResource("37_eqk8j")
+metadata/_gltf_primary_texture_coord = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_85uqb"]
+_surfaces = [{
+"aabb": AABB(-1, 0, -1, 2, 0.02, 2),
+"format": 34896613377,
+"index_count": 924,
+"index_data": PackedByteArray("AgAAALIAsgAAAAQABQAEAAAAAAACAAUABACzALIAtACyALMAsgC0AAIAswAEAAYABQAGAAQAswC1ALQABgC1ALMAtgC0ALUAtAC2AAIABgC3ALUAtwAGAAUAtQC4ALYAtwC4ALUAuQC2ALgAtgC5AAIABQAHALcAugC3AAcAtwC6ALgABwAIALoAuAADALkAugADALgAuwC6AAgAugC7AAMACAAMALsACQC7AAwAuwAJAAMADAANAAkAvAC5AAMAuQC8AAIACQC9AAMAAwC9ALwAvgAJAA0ACQC+AL0ADQAOAL4AAQC8AL0AvAABAAIAvgC/AL0AvQC/AAEAwAC+AA4AvgDAAL8ADgAQAMAAwAAQABEAwQABAL8AAQDBAAIAwAAKAL8AvwAKAMEAEQAPAMAAwAAPAAoADwARABIACwDBAAoAwQALAAIADwDCAAoACgDCAAsAEgDDAA8ADwDDAMIAwwASABQAFAATAMMAwwAVAMIAwwATABUAEwAUABYAwgAVAMQAxAALAMIAEwDFABUAxgDEABUAFQDFAMYAEwDHAMUAFgDHABMAxwAWABoAGgDIAMcAxwDJAMUAxwDIAMkAyAAaABsAxQDJAMoAygDGAMUAyAAYAMkAygDJABgAyAAZABgAGwAZAMgAGQAbABgAFwAYABsAGAAXAMoAGwAcABcAGwAdABwAHQAeABwAHgAfABwAHwAgABwAIAAhABwAygAXAMsAFwAcAMwAFwDMAMsAIQAiABwAIgAkABwAHAAkAM0AzQAkACIAzQDMABwAzgAiACEAzQAiAM4AIQAjAM4AzADNAM8AzwDNAM4AzwDLAMwAJQDOACMAzwDOACUAIwAmACUAywDPANAA0ADPACUA0QAlACYA0AAlANEAJgAnANEA0ADSAMsAygDLANIA0wDQANEA0gDQANMA1ADRACcA0wDRANQAJwAqANQA1AAqACsAygDSANUA0wDVANIAxgDKANUA1gDTANQA1QDTANYAKwApANQA1gDUACkAKQArACwA1gDXANUAxgDVANcAKADWACkA1wDWACgAxgDXANgAKADYANcAxADGANgAKAApANkALADZACkA2gDYACgAxADYANoA2wAoANkAKADbANoA3ADZACwALAAtANwA3QDbANkA3QDZANwA3gDaANsA2wDdAN4AxADaAN4A3wDcAC0ALQAvAN8A4ADdANwA4ADcAN8A4QDeAN0A3QDgAOEAxADeAOEA4gDhAOAAxADhAOIA4wDgAN8A4ADjAOIAxADiAOQA5ADiAOMACwDEAOQACwDkAAIA4wDlAOQA5QDjAN8AAgDkAOUA5QDfAC4ALgDfAC8ALwAwAC4AMgDlAC4A5QAyAAIA5gAuADAAMgAuAOYAMAAxAOYAAgAyADUA5wDmADEAMgDmAOcAMQA0AOcA5wAzADIAMwDnADQAMgAzADUANAA1ADMANQA2AAIANgAFAAIANgA3AAUAOAA3ADYANgA5ADgAOgA7ADwAPAA9ADoAPAA+AD0APAA/AD4APABAAD8AQAA8AEEAQABCAD8AQABDAEIAQwBEAEIARABFAEIARABGAEUARgBHAEUARwBIAEUARwBJAEgASQBKAEgASQBLAEoASwBMAEoATABNAEoATABOAE0ATgBPAE0ATgBQAE8AUABRAE8AUABSAFEAUgBTAFEAUgBUAFMAVQBUAFIAVQBWAFQAVwBVAFIAVwBSAFgAWQBXAFgAWQBYAFoAWwBZAFoAWwBaAFwAXQBbAFwAXQBcAF4AXwBdAF4AXwBeAGAAYQBfAGAAYQBgAGIAYwBhAGIAYwBiAGQAZQBjAGQAZQBkAGYAZwBlAGYAZwBmAGgAaQBnAGgAaQBoAEAAQQBpAEAAaQBqAGsAawBsAGkAawBlAGwAawBtAGUAawBuAG0AawBvAG4AbwBwAG4AcABxAG4AcAByAHEAcgBzAHEAcwB0AHEAcwB1AHQAdQB2AHQAdgB3AHQAdgB4AHcAeABZAHcAeAB5AFkAeQB6AFkAegB7AFkAegB8AHsAfABVAHsAfAB9AFUAfQB+AFUAfQB/AH4AgACBAIIAggCDAIAAggCEAIMAggCFAIQAhQCGAIQAhQCHAIYAhwCIAIYAiACJAIYAiACKAIkAigCLAIkAiwCMAIkAiwCNAIwAjQCOAIwAjQCPAI4AjwCQAI4AjwCRAJAAkQCSAJAAkQCTAJIAkwCUAJIAkwCVAJQAlQCWAJQAlQCXAJYAlwCYAJYAlwCZAJgAmgCbAJwAnAAIAJoAnACdAAgAnACeAJ0AngCfAJ0AnwCgAJ0AnwChAKAAoQCiAKAAogCjAKAAogCkAKMApAClAKMApACmAKUApgCnAKUApgCoAKcAqACpAKcAqACqAKkAqgCrAKkAqgCsAKsArAAWAKsArACtABYArQCuABYArQCvAK4ArwCwAK4ArwCxALAA"),
+"lods": [0.107884005, PackedByteArray("AAABAAIAAQAAAAMABAADAAAABQAEAAAAAAACAAUABgADAAQABQAGAAQABQAHAAYABwAIAAYABgAJAAMACQAGAAgAAwAKAAEACQAKAAMACwABAAoAAQALAAIACAAMAAkADAANAAkADQAOAAkADwAJAA4ACQAPAAoADgAQAA8ADwAQABEADwARABIAEgATAA8AEwASABQADwAVAAoADwATABUACgAVAAsAEwAUABYAFwALABUAEwAYABUAFQAYABcACwAXAAIAEwAZABgAFgAZABMAGQAWABoAGQAaABsAGQAbABgAFwAYABsAGwAcABcAFwAcAAIAGwAdABwAHQAeABwAHgAfABwAHwAgABwAIAAhABwAIQAiABwAIQAjACIAIgAkABwAJQAiACMAJAAiACUAIwAmACUAJgAnACUAHAAkACgAKAAkACUAKAACABwAKQAlACcAKAAlACkAJwAqACkAKQAqACsAKQArACwALAAtACkALgApAC0ALQAvAC4ALwAwAC4AMAAxAC4AMgAoACkAMgApAC4AKAAyAAIAMwAuADEAMgAuADMAMQA0ADMANAA1ADMAMgAzADUAAgAyADUANQA2AAIANgAFAAIANgA3AAUAOAA3ADYANgA5ADgAOgA7ADwAPAA9ADoAPAA+AD0APAA/AD4APABAAD8AQAA8AEEAQABCAD8AQABDAEIAQwBEAEIARABFAEIARABGAEUARgBHAEUARwBIAEUARwBJAEgASQBKAEgASQBLAEoASwBMAEoATABNAEoATABOAE0ATgBPAE0ATgBQAE8AUABRAE8AUABSAFEAUgBTAFEAUgBUAFMAVQBUAFIAVQBWAFQAVwBVAFIAVwBSAFgAWQBXAFgAWQBYAFoAWwBZAFoAWwBaAFwAXQBbAFwAXQBcAF4AXwBdAF4AXwBeAGAAYQBfAGAAYQBgAGIAYwBhAGIAYwBiAGQAZQBjAGQAZQBkAGYAZwBlAGYAZwBmAGgAaQBnAGgAaQBoAEAAQQBpAEAAaQBqAGsAawBsAGkAawBlAGwAawBtAGUAawBuAG0AawBvAG4AbwBwAG4AcABxAG4AcAByAHEAcgBzAHEAcwB0AHEAcwB1AHQAdQB2AHQAdgB3AHQAdgB4AHcAeABZAHcAeAB5AFkAeQB6AFkAegB7AFkAegB8AHsAfABVAHsAfAB9AFUAfQB+AFUAfQB/AH4AgACBAIIAggCDAIAAggCEAIMAggCFAIQAhQCGAIQAhQCHAIYAhwCIAIYAiACJAIYAiACKAIkAigCLAIkAiwCMAIkAiwCNAIwAjQCOAIwAjQCPAI4AjwCQAI4AjwCRAJAAkQCSAJAAkQCTAJIAkwCUAJIAkwCVAJQAlQCWAJQAlQCXAJYAlwCYAJYAlwCZAJgAmgCbAJwAnAAIAJoAnACdAAgAnACeAJ0AngCfAJ0AnwCgAJ0AnwChAKAAoQCiAKAAogCjAKAAogCkAKMApAClAKMApACmAKUApgCnAKUApgCoAKcAqACpAKcAqACqAKkAqgCrAKkAqgCsAKsArAAWAKsArACtABYArQCuABYArQCvAK4ArwCwAK4ArwCxALAA")],
+"name": "colormap",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 232,
+"vertex_data": PackedByteArray("//8AAP//AAAEtQAA+koAAP9/AAD//wAAst3///9/AAD///////8AADLz/3///wAAMvP/////AAAd8f9/QOAAAOjq/38NwQAAndL//2WGAADXm///5jQAAP9/AABMIgAAr+D/f+2iAACd0v9/ZYYAAPDA/3/yawAADJT//w4/AAD3q/9/B1QAAAyU/38OPwAAmXn/f2EtAAARXf//Tx8AABFd/39PHwAA92H//3wTAADxPv9/FhUAAAAAAAAAAAAAAAD//wAAAAAAAP//zAwAAL4f/3/hDgAAAAD/f8wMAAAAAAAA/38AAAAA/3+ZGQAAAAD/f7g+AAAAAP9/R0EAAAAA/39mZgAAAAD/fzJzAAAAAP//MnMAAGAS/39ndAAAAAD///9/AABwJP///ncAAHAk/3/+dwAA4TX/f+p9AACCWv//fKUAALZV//9LkAAAZkb/fw+GAAC2Vf9/S5AAAI9j/39vnAAAs2//f0iqAAAUgv//HcoAAO95/3+YuQAAFIL/fx3KAAAAiP9/jtsAAP9//////wAAzIz/////AACXi/9/nu0AAMyM/3///wAAmZn/f///AABl5v9///8AAEbB/3///wAAt77/f///AABs5P9/7OEAAGXm/3///wAARsH/f///AACL3v9/XcQAANvU/3/TpwAAh8f/f8yMAACfv/9/xOYAALe+/3///wAAybb/f71zAACwuv9/+M0AAJCy/38ItgAA6qL/fxRdAABip/9/W58AAFaZ/39WigAAQYz/fzVJAACqiP9/VHcAADJz/393OAAAqHX/f6hmAACjYP9/nFgAACtY/38jKwAA9kn/f25NAAChO/9/cyEAAAYy/39ORQAAEh7/f5IbAAA6Gf9/X0AAAAAA/3+ZGQAAAAD/f7g+AADkGP9/6UIAAAAA/39HQQAAXDH/f8dHAAAGMv9/TkUAAPtI/3/LTwAA9kn/f25NAABbX/9/1FoAAKNg/3+cWAAAGXT/f7BoAACodf9/qGYAANuG/38jeQAAqoj/f1R3AABOl/9/5YsAAFaZ/39WigAAKqX/f6OgAABip/9/W58AADOw/38DtwAAkLL/fwi2AAA3uP9/os4AALC6/3/4zQAAFb3/fxrnAAC3vv9///8AAJmZ/3///wAAN7j/f6LOAAAqpf9/o6AAAE6X/3/liwAASJj/f/LrAABdlP9/PdgAANuG/38jeQAA543/fzfFAAAEhf9/MrMAABl0/3+waAAA23n/f32iAACcbP9/YpMAAFtf/3/UWgAAgV3/fyOGAADMTP9/+noAAMc6/38XcgAAXDH/f8dHAADBJ/9/oWsAAAwU/3+2ZwAAAAD/f0dBAAAAAP9/ZmYAAEiY/3/y6wAAmZn/f/7/AADMjP9//v8AAF2U/3892AAA543/fzfFAACXi/9/nu0AAASF/38yswAAAIj/f47bAAAUgv9/HcoAANt5/399ogAA73n/f5i5AACzb/9/SKoAAJxs/39ikwAAj2P/f2+cAACBXf9/I4YAALZV/39LkAAAzEz/f/p6AABmRv9/D4YAAMc6/38XcgAA4TX/f+p9AADBJ/9/oWsAAHAk/3/+dwAADBT/f7ZnAABgEv9/Z3QAAAAA/39lZgAAAAD/fzJzAAAd8f9/QOAAADLz/3/+/wAAZeb/f/7/AACv4P9/7aIAAGzk/3/s4QAAi97/f13EAACd0v9/ZYYAANvU/3/TpwAAh8f/f8yMAADwwP9/8msAAMm2/3+9cwAA96v/fwdUAADqov9/FF0AAAyU/38OPwAAQYz/fzVJAACZef9/YS0AADJz/393OAAAEV3/f08fAAArWP9/IysAAKE7/39zIQAAvh//f+EOAAASHv9/khsAAAAA/3/MDAAAAAD/f5kZAADO/QAAlN4AAM79//+U3gAARfcAAL29AABF9///vb0AAILsAAAHngAAHfH//0DgAACC7P//B54AALLdAAD/fwAA6Or//w3BAACv4P//7aIAABjLAAAnZAAAGMv//ydkAADwwP//8msAAAS1///6SgAA96v//wdUAADXmwAA5jQAAP9///9MIgAAmXn//2EtAAD3YQAAfBMAAEFC//+5CAAAQUIAALkIAADxPv//FhUAAL4f///hDgAAaiH//zACAABqIQAAMAIAACAhAABchAAAtRAAABeBAAC1EP//F4EAAGAS//9ndAAAICH//1yEAAD7MP//vYkAAOE1///qfQAA+zAAAL2JAAD/P///JZEAAGZG//8PhgAA/z8AACWRAADrTf//cpoAAOtNAABymgAAgloAAHylAACPY///b5wAAIxlAAATsgAAjGX//xOyAACzb///SKoAANlu////vwAA2W4AAP+/AADvef//mLkAAEF2//8DzwAAQXYAAAPPAACiewAA3t4AAKJ7///e3gAA534AAEnvAADnfv//Se8AAACI//+O2wAAl4v//57tAAA=")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_18dij"]
+resource_name = "road-curve_road-curve"
+_surfaces = [{
+"aabb": AABB(-1, 0, -1, 2, 0.02, 2),
+"attribute_data": PackedByteArray("/3eYuf93mLn/d5i5/3eYuf93mLn/d5i5/3eYuf93mLn/d2WG/3dlhv93ZYb/d5i5/3dlhv93mLn/d2WG/3dlhv93ZYb/d5i5/3eYuf93ZYb/d2WG/3dlhv93ZYb/d2WG/3dlhv93ZYb/d2WG/3dlhv93ZYb/d2WG/3dlhv93/5//d/+f/3f/n/93ZYb/d/+f/3f/n/93ZYb/d/+f/3f/n/93/5//d2WG/3f/n/93/5//d/+f/3dlhv93/5//d/+f/3dlhv93ZYb/d2WG/3dlhv93ZYb/d2WG/3dlhv93ZYb/d/+f/3f/n/93ZYb/d/+f/3dlhv93/5//d/+f/3f/n/93ZYb/d/+f/3f/n/93/5//d/+f/3dlhv93/5//d/+f/3dlhv93/5//V//f/1dlxv9XZcb/V5j5/1eY+f9X/9//V//f/1f/3/9X/9//V//f/1dlxv9XZcb/V2XG/1dlxv9XmPn/V//f/1f/3/9X/9//V//f/1f/3/9X/9//V5j5/1dlxv9XZcb/R//f/0f/3/9H/9//R//f/0f/3/9H/9//R//f/0f/3/9H/9//R//f/0f/3/9H/9//R//f/0f/3/9H/9//R//f/0f/3/9H/9//R//f/0f/3/9H/9//R//f/0f/3/9H/9//R//f/0f/3/9H/9//R//f/0f/3/9H/9//R//f/0f/3/9H/9//R//f/0f/3/9H/9//R//f/0f/3/9H/9//R//f/0f/3/9H/9//R//f/0f/3/9H/9//R//f/0f/3/9H/9//R//f/0f/3/9H/9//R//f/2f/3/9n/9//Z//f/2f/3/9n/9//Z//f/2f/3/9n/9//Z//f/2f/3/9n/9//Z//f/2f/3/9n/9//Z//f/2f/3/9n/9//Z//f/2f/3/9n/9//Z//f/2f/3/9n/9//Z//f/2f/3/9n/9//B//f/wf/3/8H/9//B//f/wf/3/8H/9//B//f/wf/3/8H/9//B//f/wf/3/8H/9//B//f/wf/3/8H/9//B//f/wf/3/8H/9//B//f/wf/3/8H/9//B//f/wf/3/8H/9//B//f/wf/3/8H/9//B//f/wf/3/8H/9//B//f/wf/3/8H/9//B//f/wf/3/8H/9//B//f/wf/3/8H/9//B//f/wf/3/8H/9//B//f/wf/3/8H/9//B//f/wf/3/8H/9//B//f/wf/3/8H/9//B//f/3eYuf93mLn/d5i5/3eYuf93mLn/d5i5/3eYuf93mLn/d5i5/3eYuf93mLn/d5i5/3eYuf93mLn/d5i5/3eYuf93mLn/d5i5/3eYuf93mLn/d5i5/3dlhv93mLn/d5i5/3dlhv93ZYb/d5i5/3eYuf93ZYb/d5i5/3dlhv93ZYb/d5i5/3eYuf93ZYb/d5i5/3dlhv93ZYb/d2WG/3dlhv93mLn/d5i5/3dlhv93mLn/d5i5/3dlhv93ZYb/d5i5/3eYuf93ZYb/d2WG/3eYuf93mLn/d2WG/3dlhv93mLn/d5i5/3dlhv93mLn/d5i5/3dlhv93mLn/d5i5/3dlhv93ZYb/d5i5/3eYuf93ZYb/d2WG/3eYuf93mLn/d2WG/3dlhv93mLn/d5i5/3dlhv93ZYb/d5i5/3eYuf93ZYb/d2WG/3eYuf93mLn/d2WG/3dlhv93mLn/d5i5/3dlhv93ZYb/d5i5/3eYuf93ZYb/d2WG/3eYuf93mLn/d2WG/3dlhv93mLn/d5i5/3dlhv93ZYb/d5i5/3dlhv93ZYb/d2WG/3dlhv93ZYb/d2WG/3dlhv93ZYb/d2WG/3dlhv93ZYb/d2WG/3dlhv93ZYb/d2WG/3dlhv93ZYb/d2WG/3f/n/93ZYb/d/+f/3dlhv93ZYb/d/+f/3dlhv93/5//d2WG/3dlhv93/5//d2WG/3f/n/93ZYb/d2WG/3f/n/93ZYb/d/+f/3dlhv93ZYb/d/+f/3dlhv93ZYb/d/+f/3dlhv93ZYb/d/+f/3dlhv93ZYb/d2WG/3dlhv93ZYb/d2WG/3dlhv93ZYb/d2WG/3dlhv93ZYb/d2WG/3dlhv93ZYb/d2WG/3dlhv93ZYb/d2WG/3dlhv93ZYb/d2WG/3dlhv93/5//d2WG/3f/n/93ZYb/d2WG/3f/n/93ZYb/d2WG/3f/n/93ZYb/d2WG/3f/n/93/5//d2WG/3dlhv93/5//d2WG/3f/n/93ZYb/d2WG/3f/n/93ZYb/d/+f/3dlhv93ZYb/d/+f/3dlhg=="),
+"format": 34896613399,
+"index_count": 924,
+"index_data": PackedByteArray("AgAAAOQA5ADlAAIA5QDmAAIA5gDnAAIA5wDoAAIA6AABAAIAAQDpAAIA6QADAAIAAwDqAAIAAwDrAOoA6wDsAOoA6wDtAOwA6wDuAO0A6wDvAO4A6wDwAO8A6wDxAPAA8QDyAPAA8QDzAPIA8QD0APMA9AD1APMA9AD2APUA9AAEAPYABAD3APYABAAFAPcACQAGAPgA+AD5AAkA+gD7APwA/AD9APoA/gD/AAgACAAAAf4AAQEHAAIBAgEDAQEBBAEFAQoACgAGAQQBBwELAAgBCAEJAQcBCgELAQwBDAENAQoBDAAOAQ8BDwEQAQwAEQESARMBEwEUAREBFQEWARcBFwEYARUBGQEaARsBGwEcARkBDgAdAR4BHgENAA4AEQAfASABIAEQABEAIQEiASMBIwEkASEBJQEmAScBJwEoASUBKQEqASsBKwEsASkBLQEuAS8BLwEwAS0BMQEyAQ8ADwAzATEBNAE1ATYBNgE3ATQBOAE5AToBOgE7ATgBPAE9AT4BPgE/ATwBQAFBAUIBQgFDAUABRAFFAUYBRgFHAUQBSAFJARIAEgATAEgBSgEWABQAFABLAUoBFABMAUsBTAFNAUsBTAFOAU0BTgEVAE0BTgFPARUATwEXABUAFwBQARUAFwBRAVABUQFSAVABUQFTAVIBUwEYAFIBUwEZABgAGQBUARgAGQBVAVQBVQEaAFQBVQEbABoAGwBWARoAGwBXAVYBVwFYAVYBVwFZAVgBWQEcAFgBWQEdABwAWgEfACAAIAAeAFoBWwEhAFwBXAFdAVsBIgAjAF4BXgFfASIAYAEkAGEBYQFiAWABJQAmAGMBYwFkASUAZQEnAGYBZgFnAWUBKABoAWkBaQFqASgAKgBrAWwBbAEpACoAKwBtAW4BbgFvASsALABwAXEBcQFyASwALgBzAXQBdAF1AS4ALwB2AXcBdwEtAC8AeAEyADAAMAB5AXgBMAAxAHkBMAB6ATEAegF7ATEAegF8AXsBfAF9AXsBfQF+AXsBfQF/AX4BfwGAAX4BfwGBAYABgQE0AIABNAAzAIABNACCATMAggGDATMAggGEAYMBhAGFAYMBhAGGAYUBhgE1AIUBhgGHATUAhwGIATUAhwGJAYgBiQE3AIgBiQE2ADcAOgCKATgAOAA5ADoAiwGMATsAOwCNAYsBjgE8AD0APQCPAY4BkAGRAT4APgCSAZABkwGUAT8APwCVAZMBlgGXAUEAQQCYAZYBQABCAJkBmQGaAUAAmwFDAJwBnAGdAZsBRACeAZ8BnwGgAUQARgChAaIBogFFAEYARwCjAaQBpAGlAUcASQCmAacBpwFIAEkASgBLAEwASgBMAE0ATQBOAEoATwBKAE4ATwBQAEoAUQBQAE8ATwBSAFEAUwBPAE4ATgBUAFMAVABVAFMAVgBXAFgAWQBWAFgAWgBZAFgAWwBaAFgAXABbAFgAXQBcAFgAXgBdAFgAXgBYAF8AXwBgAF4AYQBeAGAAYgBjAGQAZABlAGIAZABmAGUAZABnAGYAZABoAGcAaABpAGcAaABqAGkAagBrAGkAawBsAGkAawBtAGwAbQBuAGwAbgBvAGwAbgBwAG8AcABxAG8AcAByAHEAcgBzAHEAcwB0AHEAcwB1AHQAdQB2AHQAdQB3AHYAdwB4AHYAdwB5AHgAeQB6AHgAeQB7AHoAfAB9AH4AfgB/AHwAfgCAAH8AfgCBAIAAfgCCAIEAfgCDAIIAgwCEAIIAhACFAIIAhACGAIUAhgCHAIUAhwCIAIUAhwCJAIgAiQCKAIgAigCLAIgAigCMAIsAjACNAIsAjACOAI0AjgCPAI0AjwCQAI0AjwCRAJAAkQCSAJAAkQCTAJIAkwCUAJIAkwCVAJQAlgCXAJgAmACZAJYAmQCaAJYAmQCbAJoAmwCcAJoAmwCdAJwAnQCeAJwAnQCfAJ4AnwCgAJ4AnwChAKAAoQCiAKAAoQCjAKIAowCkAKIAowClAKQApQCmAKQApQCnAKYApwCoAKYApwCpAKgAqQCqAKgAqQCrAKoAqwCsAKoAqwCtAKwArQCuAKwArQCvAK4AsACxALIAsgCzALAAsgC0ALMAsgC1ALQAtQC2ALQAtQC3ALYAtwC4ALYAuAC5ALYAuAC6ALkAugC7ALkAuwC8ALkAuwC9ALwAvQC+ALwAvQC/AL4AvwDAAL4AvwDBAMAAwQDCAMAAwQDDAMIAwwDEAMIAwwDFAMQAxQDGAMQAxQDHAMYAxwDIAMYAxwDJAMgAygDLAMwAzADNAMoAzADOAM0AzADPAM4AzwDQAM4A0ADRAM4A0ADSANEA0gDTANEA0wDUANEA0wDVANQA1QDWANQA1QDXANYA1wDYANYA1wDZANgA2QDaANgA2QDbANoA2wDcANoA2wDdANwA3QDeANwA3QDfAN4A3wDgAN4A3wDhAOAA4QDiAOAA4QDjAOIA"),
+"lods": [0.107884005, PackedByteArray("AAABAAIAAQADAAIAAwAEAAIABAAFAAIABgAHAAgACAAJAAYACgAIAAcABwALAAoADAAKAAsACwANAAwADgAMAA0ADwAQABEADwARABIAEgATAA8AFAAVABYAFAAXABUAFwAYABUAFwAZABgAGQAaABgAGQAbABoAGwAcABoAGwAdABwAHgAfACAAHgAhAB8AIQAeACIAIgAjACEAIgAkACMAJAAiACUAJQAmACQAJQAnACYAKAAnACUAJQApACgAKgAoACkAKwAqACkALAArACkAKQAtACwALgAsAC0ALwAuAC0AMAAxADIAMAAzADEAMAA0ADMANAA1ADMANAA2ADUANgA3ADUAOAA5ADoAOwA4ADoAOgA8ADsAPQA7ADwAPgA9ADwAPwA+ADwAPABAAD8AQQA/AEAAQABCAEEAQABDAEIARABDAEAAQABFAEQARgBEAEUARwBGAEUARQBIAEcASQBHAEgASgBLAEwASgBMAE0ATQBOAEoATwBKAE4ATwBQAEoAUQBQAE8ATwBSAFEAUwBPAE4ATgBUAFMAVABVAFMAVgBXAFgAWQBWAFgAWgBZAFgAWwBaAFgAXABbAFgAXQBcAFgAXgBdAFgAXgBYAF8AXwBgAF4AYQBeAGAAYgBjAGQAZABlAGIAZABmAGUAZABnAGYAZABoAGcAaABpAGcAaABqAGkAagBrAGkAawBsAGkAawBtAGwAbQBuAGwAbgBvAGwAbgBwAG8AcABxAG8AcAByAHEAcgBzAHEAcwB0AHEAcwB1AHQAdQB2AHQAdQB3AHYAdwB4AHYAdwB5AHgAeQB6AHgAeQB7AHoAfAB9AH4AfgB/AHwAfgCAAH8AfgCBAIAAfgCCAIEAfgCDAIIAgwCEAIIAhACFAIIAhACGAIUAhgCHAIUAhwCIAIUAhwCJAIgAiQCKAIgAigCLAIgAigCMAIsAjACNAIsAjACOAI0AjgCPAI0AjwCQAI0AjwCRAJAAkQCSAJAAkQCTAJIAkwCUAJIAkwCVAJQAlgCXAJgAmACZAJYAmQCaAJYAmQCbAJoAmwCcAJoAmwCdAJwAnQCeAJwAnQCfAJ4AnwCgAJ4AnwChAKAAoQCiAKAAoQCjAKIAowCkAKIAowClAKQApQCmAKQApQCnAKYApwCoAKYApwCpAKgAqQCqAKgAqQCrAKoAqwCsAKoAqwCtAKwArQCuAKwArQCvAK4AsACxALIAsgCzALAAsgC0ALMAsgC1ALQAtQC2ALQAtQC3ALYAtwC4ALYAuAC5ALYAuAC6ALkAugC7ALkAuwC8ALkAuwC9ALwAvQC+ALwAvQC/AL4AvwDAAL4AvwDBAMAAwQDCAMAAwQDDAMIAwwDEAMIAwwDFAMQAxQDGAMQAxQDHAMYAxwDIAMYAxwDJAMgAygDLAMwAzADNAMoAzADOAM0AzADPAM4AzwDQAM4A0ADRAM4A0ADSANEA0gDTANEA0wDUANEA0wDVANQA1QDWANQA1QDXANYA1wDYANYA1wDZANgA2QDaANgA2QDbANoA2wDcANoA2wDdANwA3QDeANwA3QDfAN4A3wDgAN4A3wDhAOAA4QDiAOAA4QDjAOIA")],
+"material": SubResource("StandardMaterial3D_dhvto"),
+"name": "colormap",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 424,
+"vertex_data": PackedByteArray("//8AAP///78EtQAA+kr/v/9/AAD///+//38AAEwi/78AAAAAAAD/vwAAAAD/f/+/AAAAAAAAVP3/fwAATCKp6vdh//98E//vAAD//wAAVP3Xm///5jRU5QS1AAD6Sv/fst3///9/VNX//wAA//+pwv///////6nCglr//3yl/5//f/////9Uvf9/AAD//1S9AAAAAP9/qoIAAP///3+qgjLz////////st3///9//////////////53S//9lhv//15v//+Y0//8MlP//Dj////dh//98E///EV3//08f//8AAP//AAD//wAA///MDP//AAD//8wMqoK+H/9/4Q5UhQAA/3/MDKqC8T7/fxYVqooRXf//Tx//jxFd/39PH/+PmXn/f2EtVJUMlP//Dj+qmgyU/38OP6qa96v/fwdU/5/wwP9/8mtUpZ3S//9lhqqqndL/f2WGqqqv4P9/7aL/r+jq/38NwVS1MvP/////VL0d8f9/QOCpujLz/3///1S9/3////////8Ugv//Hcr//8yM////////tlX//0uQ//+CWv//fKX//3Ak///+d///AAD///9///8AAP//MnP//5eL/3+e7VTFzIz/f///qcLMjP////+pwgCI/3+O26nKFIL//x3K/88Ugv9/Hcr/z+95/3+YuVTVs2//f0iqqdq2Vf//S5BU5Y9j/39vnP/ftlX/f0uQVOVmRv9/D4ap6uE1/3/qff/vcCT///53VPVwJP9//ndU9WAS/39ndKn6AAD//zJzVP0AAP9/MnNU/TLz/3///wCAMvP/////AID///////8AgP//AAD//wCA/38AAP//AICZmf9///8AgGXm/3//////RsH/f/////+3vv9//////8yM/3///wCA/3//////AIDMjP////8AgAAA//8yc/+/AAD///9//78AAAAA/3//vwAA/38yc/+/AAD/f2Zm/78AAP9/R0H/vwAA/3+4Pv+/AAD/f5kZ/78AAP9/zAz/vwAAAAAAAP+/AAD//wAA/78AAP//zAz/v2zk/3/s4f//Zeb/f/////9Gwf9//////4ve/39dxP//29T/f9On//+Hx/9/zIz//5+//3/E5v//ybb/f71z//+wuv9/+M3//5Cy/38Itv//6qL/fxRd//9ip/9/W5///1aZ/39Wiv//QYz/fzVJ//+qiP9/VHf//zJz/393OP//qHX/f6hm//+jYP9/nFj//ytY/38jK///9kn/f25N//+hO/9/cyH//wYy/39ORf//Eh7/f5Ib//86Gf9/X0D//wAA/3+ZGf//AAD/f7g+//8Vvf9/Guf//7e+/3//////mZn/f/////83uP9/os7//zOw/38Dt///KqX/f6Og//9Ol/9/5Yv//0iY/3/y6///XZT/fz3Y///bhv9/I3n//+eN/383xf//BIX/fzKz//8ZdP9/sGj//9t5/399ov//nGz/f2KT//9bX/9/1Fr//4Fd/38jhv//+0j/f8tP///MTP9/+nr//8c6/38Xcv//XDH/f8dH///BJ/9/oWv//+QY/3/pQv//DBT/f7Zn//8AAP9/R0H//wAA/39mZv//n7//f8Tm//9Gwf9//////7e+/3//////Fb3/fxrn//+wuv9/+M3//ze4/3+izv//kLL/fwi2//8zsP9/A7f//2Kn/39bn///KqX/f6Og//9Wmf9/Vor//06X/3/li///qoj/f1R3///bhv9/I3n//6h1/3+oZv//GXT/f7Bo//+jYP9/nFj//1tf/3/UWv//9kn/f25N///7SP9/y0///wYy/39ORf//XDH/f8dH//86Gf9/X0D//+QY/3/pQv//AAD/f7g+//8AAP9/R0H//0iY/3/y6///mZn/f/7////MjP9//v///12U/3892P//543/fzfF//+Xi/9/nu3//wSF/38ys///AIj/f47b//8Ugv9/Hcr//9t5/399ov//73n/f5i5//+zb/9/SKr//5xs/39ik///j2P/f2+c//+BXf9/I4b//7ZV/39LkP//zEz/f/p6//9mRv9/D4b//8c6/38Xcv//4TX/f+p9///BJ/9/oWv//3Ak/3/+d///DBT/f7Zn//9gEv9/Z3T//wAA/39lZv//AAD/fzJz//8d8f9/QOD//zLz/3/+////Zeb/f/7////o6v9/DcH//6/g/3/tov//bOT/f+zh//+L3v9/XcT//53S/39lhv//29T/f9On//+Hx/9/zIz///DA/3/ya///ybb/f71z///3q/9/B1T//+qi/38UXf//DJT/fw4///9BjP9/NUn//5l5/39hLf//MnP/f3c4//8RXf9/Tx///ytY/38jK///8T7/fxYV//+hO/9/cyH//74f/3/hDv//Eh7/f5Ib//8AAP9/zAz//wAA/3+ZGf//zv0AAJTe/79F9wAAvb3/v4LsAAAHnv+/st0AAP9//78YywAAJ2T/v9ebAADmNP+/534AAEnv/7/3YQAAfBP/v6J7AADe3v+/QXYAAAPP/7/ZbgAA/7//v4xlAAATsv+/gloAAHyl/79BQgAAuQj/v+tNAABymv+//z8AACWR/79qIQAAMAL/v/swAAC9if+/ICEAAFyE/7+1EAAAF4H/v2ohAAAwAqn6aiH//zACqfpqIQAAMAKp+kFCAAC5CFT1QUL//7kIVPVqIf//MAKp+kFCAAC5CFT192EAAHwT/+9BQv//uQhU9fdhAAB8E//v/3///0wiqer3Yf//fBP/7/9/AABMIqnq15sAAOY0VOX/f///TCKp6tebAADmNFTlBLX///pK/9/Xm///5jRU5RjL//8nZKnaBLX///pK/98EtQAA+kr/3xjLAAAnZKnaGMv//ydkqdoYywAAJ2Sp2rLdAAD/f1TVguz//wee/8+y3f///39U1bLdAAD/f1TVguwAAAee/89F9///vb2pyoLs//8Hnv/PguwAAAee/89F9wAAvb2pys79//+U3lTFRff//729qcpF9wAAvb2pys79AACU3lTFzv3//5TeVMXO/QAAlN5Uxed+AABJ76m6537//0nvqbrnfgAASe+puqJ7AADe3lS1onv//97eVLXnfv//Se+puqJ7AADe3lS1QXYAAAPP/69Bdv//A8//r6J7///e3lS1QXYAAAPP/6/ZbgAA/7+qqtlu////v6qqQXb//wPP/6/ZbgAA/7+qqoxlAAATslSljGX//xOyVKXZbv///7+qqoxlAAATslSlgloAAHyl/5+MZf//E7JUpYJa//98pf+fgloAAHyl/5/rTQAAcpqqmutN//9ymqqa603//3KaqprrTQAAcpqqmv8/AAAlkVSV/z///yWRVJX/P///JZFUlf8/AAAlkVSV+zAAAL2J/4/7MP//vYn/j/sw//+9if+P+zAAAL2J/48gIQAAXISqiiAh//9chKqKICH//1yEqoogIQAAXISqirUQAAAXgVSFtRD//xeBVIW1EP//F4FUhbUQAAAXgVSFzv3//5Te//9F9///vb3//x3x//9A4P//guz//wee///o6v//DcH//6/g///tov//GMv//ydk///wwP//8mv//wS1///6Sv//96v//wdU////f///TCL//5l5//9hLf//QUL//7kI///xPv//FhX//2oh//8wAv//vh///+EO//++H///4Q5UhfE+//8WFaqKvh//f+EOVIW+H///4Q5UhfE+/38WFaqK8T7//xYVqoqZef//YS1UlRFd/39PH/+PEV3//08f/4+Zef9/YS1UlZl5//9hLVSV96v//wdU/58MlP9/Dj+qmgyU//8OP6qa96v/fwdU/5/3q///B1T/n/DA///ya1Sl8MD/f/JrVKXwwP//8mtUpZ3S/39lhqqqndL//2WGqqqv4P//7aL/r6/g/3/tov+vr+D//+2i/6/o6v//DcFUtejq/38NwVS16Or//w3BVLUd8f//QOCpuh3x/39A4Km6HfH//0DgqbqXi///nu3//wCI//+O2///537//0nv///vef//mLn//6J7///e3v//QXb//wPP//+zb///SKr//9lu////v///j2P//2+c//+MZf//E7L//+tN//9ymv//Zkb//w+G////P///JZH//+E1///qff//+zD//72J//8gIf//XIT//2AS//9ndP//tRD//xeB//+Xi///nu1UxZeL//+e7VTFAIj//47bqcqXi/9/nu1UxQCI//+O26nKAIj/f47bqcoUgv//Hcr/z+95//+YuVTVFIL/fx3K/8/vef//mLlU1bNv//9Iqqna73n/f5i5VNWzb///SKqp2o9j//9vnP/fs2//f0iqqdqPY/9/b5z/349j//9vnP/fZkb//w+Gqeq2Vf9/S5BU5bZV//9LkFTlZkb/fw+GqepmRv//D4ap6uE1///qff/v4TX/f+p9/+/hNf//6n3/73Ak/3/+d1T1cCT///53VPVgEv//Z3Sp+mAS/39ndKn6YBL//2d0qfoAAP9/AAD/fwAA/38AAP9/AAD/fwAA/3//fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/f////3////9/////f////3////9//7//f/+//3//v/9//7//f/+//3//v/9//7//f/+//3//v/9//7//f////3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f/+//3//v/9//7//f/+//3//v/9//7//f/+//3//v/9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/////f////3////9/////f////3////9//3//f/9//3//f/9/////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9//7//f/+//3//v/9//7//f/+//3//v/9//7//f/+//3//v/9//7//f/+//3//v/9//7//f/+//3//v/9//7//f/+//3//v/9//7//f/+//3//v/9//7//f/+//3//v/9//7//f/+//3//v/9//7//f/+//3//v/9//7//f/+//3//v/9//7//f/+//3//v/9//7//f/+//3//v/9//7//f/+//3//v/9//7//f/+//3//v/9//7//f/+//3//v/9//7//f/+//3//v/9//7//f/+//3//v/9//7//f/+//3//v/9//7//f/+//3//v/9//7//f/+//3//v/9//7//f/+//3//v/9//7//f/+//3//v/9//7//f/+//3//v/9//7//f/+//3//v/9//7//f/+//3//v/9//7//f/+//3//v/9//7//f/+//3//v/9//7//f/+//3//v/9//7//f/+//3//v/9//7//f/+//3//v/9//7//f/+//3//v/9//7//f/+//3//v/9//7//f/+//3//v/9//7//f/+//3//v/9//7//f/+//3//v/9//7//f/+//3//v/9//7//f/+//3//v/9//7//f/+//3//v/9//7//f/+//3//v/9//7//f/+//3//v/9//7//f/+//3//v/9//7//f/+//3//v/9//78AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/f/9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f/+//3//v/9//7//f/+//3//v/9//7//f/+//3//v/9//7//f/+//3//v/9//7//f/+//3//v/9//7//f/+//3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f////3////9/////f////3//v/9//7//f/+//3//v/9//7//f/+//3//v/9//7//f/+//3//v/9//7//f/+//3//v/9//7//f/+//3//v/9//7//f/+//38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAA")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_85uqb")
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_3vqxb"]
+points = PackedVector3Array(-1, 0, -1, -1, 0, -0.00019574165, -1, 0.02, -1, -0.7390368, 0, -0.9829679, -1, 0.02, -0.00019574165, -0.00019574165, 0, 1, -0.7390368, 0.02, -0.9829679, -0.48257637, 0, -0.9318716, -0.00019574165, 0.02, 1, 1, 0, 1, -0.48257637, 0.02, -0.9318716, -0.23472983, 0, -0.84788567, 1, 0.02, 1, 0.9827721, 0, 0.73884106, -0.23472983, 0.02, -0.84788567, -0.00019574165, 0, -0.73218477, 0.9827721, 0.02, 0.73884106, 0.9316758, 0, 0.48218477, -0.00019574165, 0.02, -0.73218477, 0.217502, 0, -0.58672667, 0.9316758, 0.02, 0.48218477, 0.84768987, 0, 0.23453403, 0.217502, 0.02, -0.58672667, 0.41405642, 0, -0.41425216, 0.84768987, 0.02, 0.23453403, 0.731989, 0, -0.00019574165, 0.41405642, 0.02, -0.41425216, 0.5865309, 0, -0.21769774, 0.731989, 0.02, -0.00019574165, 0.5865309, 0.02, -0.21769774)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_rov0x"]
+resource_name = "colormap"
+cull_mode = 2
+albedo_texture = ExtResource("37_eqk8j")
+metadata/_gltf_primary_texture_coord = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_dn365"]
+_surfaces = [{
+"aabb": AABB(-0.5, 0, -0.5, 1, 0.02, 1),
+"format": 34896613377,
+"index_count": 132,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAABAAAAAAADAAUAAwACAAUABQAGAAAAAAAGAAQABAAGAAUABQAHAAQABwAFAAIABAAHAAgAAgAIAAcABAAJAAEACAAJAAQAAgABAAoACQAKAAEACgALAAIAAgALAAgACwAKAAwACQAMAAoADAANAAsACwANAAgADQAMAA4ACQAOAAwADgAPAA0ADQAPAAgACQAQAA4AEQAPAA4ADgAQABEADwARAAgACQASABAAEQAQABIAEgATABEAEQATAAgACQAUABIAFAAJAAgAFAAVABIAFgATABIAEgAVABYAEwAWAAgAFgAVABQACAAXABQAFAAXABYAFgAXAAgA"),
+"name": "colormap",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("/////5kZAAD///9/mRkAAAAA/3+ZGQAAAAD//5kZAAD//wAAAAAAAAAA//8AAAAA/////wAAAAAAAAAAAAAAAAAAAAD//wAA//8AAP//AAD///9/MjMAAAAA/38yMwAA////f3B9AAAAAP9/cH0AAP///3+OggAAAAD/f46CAAD///9/zMwAAAAA/3/MzAAA////f2XmAAAAAP9/ZeYAAP///////wAA/////2XmAAAAAP//ZeYAAAAA/////wAA")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_odwgl"]
+resource_name = "road-straight_road-straight"
+_surfaces = [{
+"aabb": AABB(-0.5, 0, -0.5, 1, 0.02, 1),
+"attribute_data": PackedByteArray("/3dlhv93/5//d/+f/3dlhv93ZYb/d5i5/3eYuf93ZYb/d2WG/3f/n/93/5//d2WG/3eYuf93mLn/d5i5/3eYuf93ZYb/d2WG/3dlhv93ZYb/d2WG/3eYuf93mLn/d2WG/3dlhv93ZYb/d2WG/3dlhv9XZcb/V2XG/1f/3/9XmPn/V//f/1f/3/9X/9//V//f/1f/3/9XmPn/V2XG/1dlxv9XZcb/V2XG/1eY+f9X/9//V//f/1f/3/9X/9//V//f/1f/3/9XmPn/V2XG/1dlxv9H/9//R//f/0f/3/9H/9//R//f/0f/3/9H/9//R//f/wf/3/8H/9//B//f/wf/3/8H/9//B//f/wf/3/8H/9//Z//f/2f/3/9n/9//Z//f"),
+"format": 34896613399,
+"index_count": 132,
+"index_data": PackedByteArray("AAABAAIAAgADAAAABAAFAAYABgAHAAQACAAJAAoACgALAAgADAANAA4ADgAPAAwAEAARABIAEgATABAAFAAVABYAFgAXABQAGAAZABoAGgAbABgAHAAdAB4AHwAcAB4AHwAeACAAHwAgACEAHwAhACIAHwAiACMAHwAjACQAJQAfACQAJQAkACYAJgAnACUAKAApACoAKwAoACoALAArACoALQAsACoALgAtACoALwAuACoAMAAvACoAMAAqADEAMQAyADAAMwAwADIANAA1ADYANgA3ADQAOAA5ADoAOgA7ADgAPAA9AD4APgA/ADwAQABBAEIAQgBDAEAARABFAEYARgBHAEQA"),
+"material": SubResource("StandardMaterial3D_rov0x"),
+"name": "colormap",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 72,
+"vertex_data": PackedByteArray("/////5kZAID///9/mRkAgAAA/3+ZGQCAAAD//5kZAIAAAP//AAD//wAAAAAAAP////8AAAAA////////AAD//wAA//9l5v//AAD/f2Xm//////9/Zeb///////9l5v//AAAAAP///7///wAA////v///AAAAAP+/AAAAAAAA/78AAP//AAD///////8AAP///////5kZ//8AAP//mRn//////////wCA//8AAP//AIAAAAAA//8AgAAA/////wCAAAD//2Xm////////Zeb/////////////AAD/////////////////v/////9l5v+/////f2Xm/7///wAA////v////3/MzP+/////f46C/7////9/cH3/v////38yM/+/////f5kZ/7///wAAAAD/v/////+ZGf+//////wAA/78AAP//Zeb/vwAA//////+/AAAAAP///78AAP9/Zeb/vwAA/3/MzP+/AAD/f46C/78AAP9/cH3/vwAA/38yM/+/AAD/f5kZ/78AAAAAAAD/vwAA//8AAP+/AAD//5kZ/7////9/joL//////3/MzP//AAD/f8zM//8AAP9/joL//wAA/38yM///////fzIz//////9/cH3//wAA/39wff//AAD/f5kZ//////9/mRn//////38yM///AAD/fzIz//8AAP9/zMz//////3/MzP//////f2Xm//8AAP9/Zeb//wAA/39wff//////f3B9//////9/joL//wAA/3+Ogv///3////9/////f////3////9/////f////3////9/////f////3////9/////f///AAD/fwAA/38AAP9/AAD/f/9//7//f/+//3//v/9//7//f////3////9/////f////3//v/9//7//f/+//3//v/9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/AAD/fwAA/38AAP9/////f////3////9/////f////3////9/////f////3////9/////f////3////9//7//f/+//3//v/9//7//f/+//3//v/9//7//f/+//3//v/9//7//f/+//3//v/9//7//f/+//3//v/9//7//f/+//3//v/9//7//f/+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_dn365")
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_pqwt4"]
+points = PackedVector3Array(-0.5, 0, -0.5, -0.5, 0.02, -0.5, 0.5, 0, -0.5, -0.5, 0, 0.5, -0.5, 0.02, 0.5, 0.5, 0.02, -0.5, 0.5, 0, 0.5, 0.5, 0.02, 0.5)
+
+[node name="World Tiles" type="Node3D" unique_id=257258413]
+
+[node name="bridge-pillar-wide2" parent="." unique_id=1912111192 instance=ExtResource("1_3vqxb")]
+visible = false
+
+[node name="bridge-pillar2" parent="." unique_id=165940446 instance=ExtResource("2_pqwt4")]
+visible = false
+
+[node name="construction-barrier2" parent="." unique_id=1096311964 instance=ExtResource("3_4leoq")]
+visible = false
+
+[node name="construction-cone2" parent="." unique_id=2065943201 instance=ExtResource("4_4x58r")]
+visible = false
+
+[node name="construction-fence2" parent="." unique_id=1357930483 instance=ExtResource("5_q0w4p")]
+visible = false
+
+[node name="construction-light2" parent="." unique_id=1655460945 instance=ExtResource("6_ljv5u")]
+visible = false
+
+[node name="dumpster2" parent="." unique_id=394256716 instance=ExtResource("7_jrnli")]
+visible = false
+
+[node name="electricity-pole-single2" parent="." unique_id=1208651879 instance=ExtResource("8_w7a5x")]
+visible = false
+
+[node name="electricity-pole-wide2" parent="." unique_id=1880464356 instance=ExtResource("9_ywca7")]
+visible = false
+
+[node name="electricity-pole2" parent="." unique_id=694906697 instance=ExtResource("10_wdu5h")]
+visible = false
+
+[node name="electricity-side-single2" parent="." unique_id=1788014983 instance=ExtResource("11_pp8ae")]
+visible = false
+
+[node name="electricity-side-wide2" parent="." unique_id=975167764 instance=ExtResource("12_b8q52")]
+visible = false
+
+[node name="electricity-side2" parent="." unique_id=2042712852 instance=ExtResource("13_sdi8f")]
+visible = false
+
+[node name="electricity-wires-wide2" parent="." unique_id=2130273635 instance=ExtResource("14_lhu53")]
+visible = false
+
+[node name="electricity-wires2" parent="." unique_id=960469072 instance=ExtResource("15_lm4qa")]
+visible = false
+
+[node name="light-curved-cross2" parent="." unique_id=1264644149 instance=ExtResource("16_3puib")]
+visible = false
+
+[node name="light-curved-double2" parent="." unique_id=1866879857 instance=ExtResource("17_m7u8h")]
+visible = false
+
+[node name="light-curved2" parent="." unique_id=1570773428 instance=ExtResource("18_jep3q")]
+visible = false
+
+[node name="light-square-cross2" parent="." unique_id=1466921126 instance=ExtResource("19_8icmq")]
+visible = false
+
+[node name="light-square-double2" parent="." unique_id=1650528030 instance=ExtResource("20_rofkl")]
+visible = false
+
+[node name="light-square2" parent="." unique_id=734800363 instance=ExtResource("21_qx6i0")]
+visible = false
+
+[node name="road-bend-barrier2" parent="." unique_id=1882783449 instance=ExtResource("22_yg8hs")]
+visible = false
+
+[node name="road-bend-sidewalk2" parent="." unique_id=509926519 instance=ExtResource("23_f8j6l")]
+visible = false
+
+[node name="road-bend-square-barrier2" parent="." unique_id=1074130782 instance=ExtResource("24_4jomi")]
+visible = false
+
+[node name="road-bend-square2" parent="." unique_id=1929719658 instance=ExtResource("25_kx0ai")]
+visible = false
+
+[node name="road-bend2" parent="." unique_id=182503319 instance=ExtResource("26_270om")]
+visible = false
+
+[node name="road-bridge2" parent="." unique_id=1635491789 instance=ExtResource("27_sbxg3")]
+visible = false
+
+[node name="road-crossing2" parent="." unique_id=2034205669 instance=ExtResource("28_d8aj1")]
+visible = false
+
+[node name="road-crossroad-barrier2" parent="." unique_id=2046440086 instance=ExtResource("29_g0leb")]
+visible = false
+
+[node name="road-crossroad-line2" parent="." unique_id=123923981 instance=ExtResource("30_5u6x2")]
+visible = false
+
+[node name="road-crossroad-path2" parent="." unique_id=1898254113 instance=ExtResource("31_hrofc")]
+visible = false
+
+[node name="road-crossroad2" parent="." unique_id=1606171384 instance=ExtResource("32_qvixx")]
+visible = false
+
+[node name="road-curve-barrier2" parent="." unique_id=434464811 instance=ExtResource("33_0m14h")]
+visible = false
+
+[node name="road-curve-intersection-barrier2" parent="." unique_id=76341580 instance=ExtResource("34_tp4qu")]
+visible = false
+
+[node name="road-curve-intersection2" parent="." unique_id=1683405247 instance=ExtResource("35_vboaf")]
+visible = false
+
+[node name="road-curve-pavement2" parent="." unique_id=1469602007 instance=ExtResource("36_r76ec")]
+visible = false
+
+[node name="road-curve2" type="Node3D" parent="." unique_id=855606181]
+
+[node name="road-curve" type="MeshInstance3D" parent="road-curve2" unique_id=888024940]
+mesh = SubResource("ArrayMesh_18dij")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="road-curve2/road-curve" unique_id=23875469]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="road-curve2/road-curve/StaticBody3D" unique_id=340619380]
+shape = SubResource("ConvexPolygonShape3D_3vqxb")
+
+[node name="road-driveway-double-barrier2" parent="." unique_id=306721196 instance=ExtResource("38_aj0yv")]
+visible = false
+
+[node name="road-driveway-double2" parent="." unique_id=597586265 instance=ExtResource("39_062r3")]
+visible = false
+
+[node name="road-driveway-single-barrier2" parent="." unique_id=1537607403 instance=ExtResource("40_rng68")]
+visible = false
+
+[node name="road-driveway-single2" parent="." unique_id=319314792 instance=ExtResource("41_rh5n0")]
+visible = false
+
+[node name="road-end-barrier2" parent="." unique_id=1824971236 instance=ExtResource("42_850pl")]
+visible = false
+
+[node name="road-end-round-barrier2" parent="." unique_id=1559668217 instance=ExtResource("43_263bu")]
+visible = false
+
+[node name="road-end-round2" parent="." unique_id=1569466970 instance=ExtResource("44_j2oxg")]
+visible = false
+
+[node name="road-end2" parent="." unique_id=1413251793 instance=ExtResource("45_m1yxw")]
+visible = false
+
+[node name="road-intersection-barrier2" parent="." unique_id=1462119881 instance=ExtResource("46_enk07")]
+visible = false
+
+[node name="road-intersection-line2" parent="." unique_id=519667512 instance=ExtResource("47_x0sa0")]
+visible = false
+
+[node name="road-intersection-path2" parent="." unique_id=270875786 instance=ExtResource("48_j2t0m")]
+visible = false
+
+[node name="road-intersection2" parent="." unique_id=1644177434 instance=ExtResource("49_xmfml")]
+visible = false
+
+[node name="road-roundabout-barrier2" parent="." unique_id=1543979385 instance=ExtResource("50_q067t")]
+visible = false
+
+[node name="road-roundabout2" parent="." unique_id=1202770209 instance=ExtResource("51_7ps37")]
+visible = false
+
+[node name="road-side-barrier2" parent="." unique_id=1011251019 instance=ExtResource("52_evure")]
+visible = false
+
+[node name="road-side-entry-barrier2" parent="." unique_id=1987125963 instance=ExtResource("53_6fhy3")]
+visible = false
+
+[node name="road-side-entry2" parent="." unique_id=1518095841 instance=ExtResource("54_86tiq")]
+visible = false
+
+[node name="road-side-exit-barrier2" parent="." unique_id=832894510 instance=ExtResource("55_8wvg6")]
+visible = false
+
+[node name="road-side-exit2" parent="." unique_id=1202457705 instance=ExtResource("56_gk7kx")]
+visible = false
+
+[node name="road-side2" parent="." unique_id=823815469 instance=ExtResource("57_amaap")]
+visible = false
+
+[node name="road-sign-empty-hanging2" parent="." unique_id=1820904242 instance=ExtResource("58_x4pt8")]
+visible = false
+
+[node name="road-sign-empty2" parent="." unique_id=1760263262 instance=ExtResource("59_gyu41")]
+visible = false
+
+[node name="road-sign-object-stop2" parent="." unique_id=496305737 instance=ExtResource("60_2gk2q")]
+visible = false
+
+[node name="road-sign-object-street2" parent="." unique_id=643051206 instance=ExtResource("61_ebbiw")]
+visible = false
+
+[node name="road-sign-object-warning2" parent="." unique_id=173792764 instance=ExtResource("62_8714i")]
+visible = false
+
+[node name="road-sign-stop2" parent="." unique_id=1977191292 instance=ExtResource("63_fkprd")]
+visible = false
+
+[node name="road-sign-street2" parent="." unique_id=246853023 instance=ExtResource("64_l183f")]
+visible = false
+
+[node name="road-sign-warning2" parent="." unique_id=194553706 instance=ExtResource("65_woit8")]
+visible = false
+
+[node name="road-slant-barrier2" parent="." unique_id=606327616 instance=ExtResource("66_xvycg")]
+visible = false
+
+[node name="road-slant-curve-barrier2" parent="." unique_id=57347042 instance=ExtResource("67_6fe2l")]
+visible = false
+
+[node name="road-slant-curve2" parent="." unique_id=43808162 instance=ExtResource("68_fdexd")]
+visible = false
+
+[node name="road-slant-flat-curve2" parent="." unique_id=1516108677 instance=ExtResource("69_4rl3u")]
+visible = false
+
+[node name="road-slant-flat-high2" parent="." unique_id=78266526 instance=ExtResource("70_ttkrq")]
+visible = false
+
+[node name="road-slant-flat2" parent="." unique_id=2048115154 instance=ExtResource("71_mokxc")]
+visible = false
+
+[node name="road-slant-high-barrier2" parent="." unique_id=38919579 instance=ExtResource("72_4ymsq")]
+visible = false
+
+[node name="road-slant-high2" parent="." unique_id=1621737562 instance=ExtResource("73_08ml6")]
+visible = false
+
+[node name="road-slant2" parent="." unique_id=522873169 instance=ExtResource("74_l7np7")]
+visible = false
+
+[node name="road-split-barrier2" parent="." unique_id=319289153 instance=ExtResource("75_i6wp6")]
+visible = false
+
+[node name="road-split2" parent="." unique_id=2143757890 instance=ExtResource("76_qxjyj")]
+visible = false
+
+[node name="road-square-barrier2" parent="." unique_id=960348866 instance=ExtResource("77_4vrxw")]
+visible = false
+
+[node name="road-square2" parent="." unique_id=181651667 instance=ExtResource("78_lkf71")]
+visible = false
+
+[node name="road-straight-barrier-end2" parent="." unique_id=1478890427 instance=ExtResource("79_j3ilc")]
+visible = false
+
+[node name="road-straight-barrier-half2" parent="." unique_id=1811047850 instance=ExtResource("80_ma5md")]
+visible = false
+
+[node name="road-straight-barrier2" parent="." unique_id=1568579900 instance=ExtResource("81_33dco")]
+visible = false
+
+[node name="road-straight-half2" parent="." unique_id=1384408614 instance=ExtResource("82_xm8gg")]
+visible = false
+
+[node name="road-straight2" type="Node3D" parent="." unique_id=175490759]
+visible = false
+
+[node name="road-straight" type="MeshInstance3D" parent="road-straight2" unique_id=2026263044]
+mesh = SubResource("ArrayMesh_odwgl")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="road-straight2/road-straight" unique_id=1400816295]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="road-straight2/road-straight/StaticBody3D" unique_id=975608195]
+shape = SubResource("ConvexPolygonShape3D_pqwt4")
+
+[node name="sign-highway-detailed2" parent="." unique_id=32822823 instance=ExtResource("84_baijl")]
+visible = false
+
+[node name="sign-highway-wide2" parent="." unique_id=934965245 instance=ExtResource("85_3akw2")]
+visible = false
+
+[node name="sign-highway2" parent="." unique_id=1863815507 instance=ExtResource("86_0gc6u")]
+visible = false
+
+[node name="tile-high2" parent="." unique_id=2005978561 instance=ExtResource("87_ju14a")]
+visible = false
+
+[node name="tile-low2" parent="." unique_id=1745418785 instance=ExtResource("88_8ur71")]
+visible = false
+
+[node name="tile-slant2" parent="." unique_id=2062436874 instance=ExtResource("89_s68kt")]
+visible = false
+
+[node name="tile-slantHigh2" parent="." unique_id=728179424 instance=ExtResource("90_qx7nj")]
+visible = false
+
+[node name="traffic-light-hanging2" parent="." unique_id=588127896 instance=ExtResource("91_5ack8")]
+visible = false
+
+[node name="traffic-light-object-hanging2" parent="." unique_id=1623935176 instance=ExtResource("92_ll3vw")]
+visible = false
+
+[node name="traffic-light-object-horizontal2" parent="." unique_id=507283863 instance=ExtResource("93_sb2mf")]
+visible = false
+
+[node name="traffic-light-object-vertical2" parent="." unique_id=427412767 instance=ExtResource("94_0jjs2")]
+visible = false
+
+[node name="traffic-light2" parent="." unique_id=1357598139 instance=ExtResource("95_cx3ef")]
+visible = false
