@@ -14,4 +14,4 @@ data = {
 }
 
 [node name="Tofu Car" parent="." unique_id=1908535123 instance=ExtResource("2_8gbba")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -132.77658, 18.14672, -32.770264)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -132.77658, 17.307327, -32.770264)

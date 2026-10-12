@@ -882,53 +882,59 @@ transform = Transform3D(3.6310096, 0, 0, 0, 7.694551, 0, 0, 0, 4.2784286, 0, -0.
 shape = SubResource("ConvexPolygonShape3D_0cy3d")
 
 [node name="FrontRightWheel" type="VehicleWheel3D" parent="." unique_id=361308867]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.577894, -6.7718053, -10.706568)
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -18.577894, -6.7718053, -10.706568)
+use_as_traction = true
 use_as_steering = true
 wheel_roll_influence = 0.01
+wheel_radius = 4.5
 wheel_rest_length = 0.2
 wheel_friction_slip = 1.4
-suspension_stiffness = 120.0
+suspension_stiffness = 80.0
 
 [node name="FR Mesh" type="MeshInstance3D" parent="FrontRightWheel" unique_id=773590143]
-transform = Transform3D(4.2511463, 0, 0, 0, -6.2275234e-08, -4.2511463, 0, 1.4246913, -1.8582351e-07, 0, 0, 0)
+transform = Transform3D(-1.8582351e-07, 1.4246913, 0, 1.8582351e-07, 2.722137e-15, -4.2511463, -4.2511463, -6.2275234e-08, -1.8582351e-07, 0, 0, 0)
 mesh = SubResource("ArrayMesh_mewk7")
 
 [node name="FrontLeftWheel" type="VehicleWheel3D" parent="." unique_id=107934285]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.577894, -6.7718062, 10.706598)
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -18.577894, -6.7718062, 10.706598)
+use_as_traction = true
 use_as_steering = true
 wheel_roll_influence = 0.01
+wheel_radius = 4.5
 wheel_rest_length = 0.2
 wheel_friction_slip = 1.4
-suspension_stiffness = 120.0
+suspension_stiffness = 80.0
 
 [node name="FL Mesh" type="MeshInstance3D" parent="FrontLeftWheel" unique_id=2029433411]
-transform = Transform3D(-4.2511463, -2.151224e-07, 2.805857e-14, 0, -6.227523e-08, -4.2511463, 6.419053e-07, -1.4246912, 1.8582351e-07, 0, 0, 0)
+transform = Transform3D(-1.8582351e-07, -1.4246912, 0, -1.8582351e-07, 2.7221367e-15, -4.2511463, 4.2511463, -6.227523e-08, -1.8582351e-07, 0, 0, 0)
 mesh = SubResource("ArrayMesh_87m4t")
 
 [node name="RearRightWheel" type="VehicleWheel3D" parent="." unique_id=955739061]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.218649, -6.7718053, -10.706568)
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 15.218649, -6.7718053, -10.706568)
 use_as_traction = true
 wheel_roll_influence = 0.01
+wheel_radius = 4.5
 wheel_rest_length = 0.2
 wheel_friction_slip = 1.1
 suspension_travel = 0.15
-suspension_stiffness = 120.0
+suspension_stiffness = 80.0
 
 [node name="RR Mesh" type="MeshInstance3D" parent="RearRightWheel" unique_id=1356926996]
-transform = Transform3D(4.2511463, 0, 0, 0, -6.227523e-08, -4.2511463, 0, 1.4246912, -1.8582351e-07, 0, 0, 0)
+transform = Transform3D(-1.8582351e-07, 1.4246912, 0, 1.8582351e-07, 2.7221367e-15, -4.2511463, -4.2511463, -6.227523e-08, -1.8582351e-07, 0, 0, 0)
 mesh = SubResource("ArrayMesh_q8eyn")
 
 [node name="RearLeftWheel" type="VehicleWheel3D" parent="." unique_id=1664460664]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.218649, -6.7718053, 10.706598)
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 15.218649, -6.7718053, 10.706598)
 use_as_traction = true
 wheel_roll_influence = 0.01
+wheel_radius = 4.5
 wheel_rest_length = 0.2
 wheel_friction_slip = 1.1
 suspension_travel = 0.15
-suspension_stiffness = 120.0
+suspension_stiffness = 80.0
 
 [node name="RL Mesh" type="MeshInstance3D" parent="RearLeftWheel" unique_id=1303359683]
-transform = Transform3D(-4.2511463, -2.151224e-07, 2.805857e-14, 0, -6.227523e-08, -4.2511463, 6.419053e-07, -1.4246912, 1.8582351e-07, 0, 0, 0)
+transform = Transform3D(-1.8582351e-07, -1.4246912, 0, -1.8582351e-07, 2.7221367e-15, -4.2511463, 4.2511463, -6.227523e-08, -1.8582351e-07, 0, 0, 0)
 mesh = SubResource("ArrayMesh_7iv6p")
 
 [node name="CenterOfMass" type="Node3D" parent="." unique_id=580135586]
