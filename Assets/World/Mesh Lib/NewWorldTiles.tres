@@ -23,7 +23,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_sxd4q"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_bfj3r"]
 resource_name = "bridge-pillar-wide_bridge-pillar-wide"
 _surfaces = [{
 "aabb": AABB(-0.07, 0, -0.07, 0.14, 0.5, 0.14),
@@ -51,7 +51,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_x8ol7"]
+[sub_resource type="ImageTexture" id="ImageTexture_blvba"]
 image = SubResource("Image_bfj3r")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ut6j2"]
@@ -75,7 +75,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_ui1ru"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_x8ol7"]
 resource_name = "bridge-pillar_bridge-pillar"
 _surfaces = [{
 "aabb": AABB(-0.05, 0, -0.05, 0.1, 0.5, 0.1),
@@ -103,7 +103,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_tmq72"]
+[sub_resource type="ImageTexture" id="ImageTexture_anmv3"]
 image = SubResource("Image_sxd4q")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1p4dr"]
@@ -127,7 +127,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_xeabp"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_tmq72"]
 resource_name = "electricity-side-single_electricity-side-single"
 _surfaces = [{
 "aabb": AABB(-0.031724997, 0, -0.39883724, 0.063449994, 0.525, 0.43056202),
@@ -155,7 +155,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_u4nx3"]
+[sub_resource type="ImageTexture" id="ImageTexture_f55cu"]
 image = SubResource("Image_blvba")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_via7s"]
@@ -179,7 +179,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_hxvec"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_u4nx3"]
 resource_name = "electricity-side-wide_electricity-side-wide"
 _surfaces = [{
 "aabb": AABB(-0.531725, 2.2559537e-16, -0.13883749, 1.06345, 0.525, 0.4305625),
@@ -207,7 +207,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_nuduo"]
+[sub_resource type="ImageTexture" id="ImageTexture_24tpp"]
 image = SubResource("Image_x8ol7")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ahk35"]
@@ -231,7 +231,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_xqui8"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_nuduo"]
 resource_name = "electricity-side_electricity-side"
 _surfaces = [{
 "aabb": AABB(-0.281725, 4.511975e-16, -0.13883749, 0.56345, 0.525, 0.4305625),
@@ -259,7 +259,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_jxmpn"]
+[sub_resource type="ImageTexture" id="ImageTexture_yckg3"]
 image = SubResource("Image_ui1ru")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wnyx4"]
@@ -283,7 +283,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_aixsd"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_jxmpn"]
 resource_name = "electricity-wires-wide_electricity-wires-wide"
 _surfaces = [{
 "aabb": AABB(-0.5355891, 0.3979836, -0.0916502, 1.0071782, 0.104478, 0.18500033),
@@ -311,7 +311,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_j3ya0"]
+[sub_resource type="ImageTexture" id="ImageTexture_t4w8u"]
 image = SubResource("Image_anmv3")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fankf"]
@@ -335,7 +335,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_8k8s8"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_j3ya0"]
 resource_name = "electricity-wires_electricity-wires"
 _surfaces = [{
 "aabb": AABB(-0.28495082, 0.43794864, -0.0916502, 0.50590163, 0.06468606, 0.18500033),
@@ -363,7 +363,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_m5hcr"]
+[sub_resource type="ImageTexture" id="ImageTexture_twth6"]
 image = SubResource("Image_tmq72")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_rpnsr"]
@@ -387,7 +387,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_qcw2b"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_m5hcr"]
 resource_name = "light-curved-cross_light-curved-cross"
 _surfaces = [{
 "aabb": AABB(-0.2, 0, -0.2, 0.4, 0.67499995, 0.4),
@@ -415,7 +415,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_s1cg4"]
+[sub_resource type="ImageTexture" id="ImageTexture_xs3cb"]
 image = SubResource("Image_xeabp")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_drueo"]
@@ -439,7 +439,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_wrfad"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_s1cg4"]
 resource_name = "light-curved-double_light-curved-double"
 _surfaces = [{
 "aabb": AABB(-0.025, 0, -0.2, 0.05, 0.67499995, 0.4),
@@ -467,7 +467,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_8sblv"]
+[sub_resource type="ImageTexture" id="ImageTexture_oxn1f"]
 image = SubResource("Image_f55cu")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_uthkd"]
@@ -491,7 +491,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_y0sku"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_8sblv"]
 resource_name = "light-curved_light-curved"
 _surfaces = [{
 "aabb": AABB(-0.025, 0, -0.2, 0.05, 0.67499995, 0.22500001),
@@ -519,7 +519,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_t3tfy"]
+[sub_resource type="ImageTexture" id="ImageTexture_5osw1"]
 image = SubResource("Image_u4nx3")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wre1b"]
@@ -543,7 +543,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_1j0mc"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_t3tfy"]
 resource_name = "light-square-cross_light-square-cross"
 _surfaces = [{
 "aabb": AABB(-0.21249999, 0, -0.21249999, 0.42499998, 0.6, 0.42499998),
@@ -571,7 +571,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_jjnnd"]
+[sub_resource type="ImageTexture" id="ImageTexture_2gkov"]
 image = SubResource("Image_hxvec")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_nsut0"]
@@ -595,7 +595,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_m0nnd"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_jjnnd"]
 resource_name = "light-square-double_light-square-double"
 _surfaces = [{
 "aabb": AABB(-0.025000002, 0, -0.21249999, 0.050000004, 0.6, 0.42499998),
@@ -623,7 +623,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_58idf"]
+[sub_resource type="ImageTexture" id="ImageTexture_uk1aw"]
 image = SubResource("Image_24tpp")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_e6t0q"]
@@ -647,7 +647,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_yrbor"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_58idf"]
 resource_name = "construction-barrier_construction-barrier"
 _surfaces = [{
 "aabb": AABB(-0.06775, 0, -0.1125, 0.1355, 0.13, 0.225),
@@ -675,7 +675,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_b0xa0"]
+[sub_resource type="ImageTexture" id="ImageTexture_8qjol"]
 image = SubResource("Image_nuduo")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bla3u"]
@@ -699,7 +699,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_6rmuf"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_b0xa0"]
 resource_name = "light-square_light-square"
 _surfaces = [{
 "aabb": AABB(-0.025, 0, -0.21250002, 0.05, 0.6, 0.23750003),
@@ -727,7 +727,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_wvoj6"]
+[sub_resource type="ImageTexture" id="ImageTexture_af1ot"]
 image = SubResource("Image_xqui8")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qxdn1"]
@@ -751,7 +751,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_587xw"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_wvoj6"]
 resource_name = "road-bend-barrier_road-bend-barrier"
 _surfaces = [{
 "aabb": AABB(-0.5, 0, -0.5, 1, 0.08, 1),
@@ -779,7 +779,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_8mvxl"]
+[sub_resource type="ImageTexture" id="ImageTexture_3vi0y"]
 image = SubResource("Image_yckg3")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1dp6f"]
@@ -803,7 +803,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_8eq4c"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_8mvxl"]
 resource_name = "road-bend-sidewalk_road-bend-sidewalk"
 _surfaces = [{
 "aabb": AABB(-0.5, 0, -0.5, 1, 0.02, 1),
@@ -831,8 +831,11 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_ve2nw"]
+[sub_resource type="ImageTexture" id="ImageTexture_sdiq0"]
 image = SubResource("Image_jxmpn")
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_s6jxg"]
+points = PackedVector3Array(-0.5, 0, -0.5, -0.5, 0, 0.5, -0.5, 0.02, -0.5, 0.5, 0, -0.5, -0.5, 0.02, 0.5, 0.5, 0, 0.5, 0.5, 0.02, -0.5, 0.5, 0.02, 0.5)
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_dxvo5"]
 resource_name = "colormap"
@@ -855,7 +858,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_eovio"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_ve2nw"]
 resource_name = "road-bend-square-barrier_road-bend-square-barrier"
 _surfaces = [{
 "aabb": AABB(-0.5, 0, -0.5, 1, 0.08, 1),
@@ -883,7 +886,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_odqpd"]
+[sub_resource type="ImageTexture" id="ImageTexture_jdfed"]
 image = SubResource("Image_aixsd")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_aglh3"]
@@ -906,7 +909,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_n1a21"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_odqpd"]
 resource_name = "road-bend-square_road-bend-square"
 _surfaces = [{
 "aabb": AABB(-0.5, 0, -0.5, 1, 0.02, 1),
@@ -933,7 +936,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_euev4"]
+[sub_resource type="ImageTexture" id="ImageTexture_wyj72"]
 image = SubResource("Image_t4w8u")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_p0vww"]
@@ -957,7 +960,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_38rpb"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_euev4"]
 resource_name = "road-bend_road-bend"
 _surfaces = [{
 "aabb": AABB(-0.5, 0, -0.5, 1, 0.02, 1),
@@ -985,8 +988,11 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_oa37n"]
+[sub_resource type="ImageTexture" id="ImageTexture_coqcg"]
 image = SubResource("Image_j3ya0")
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_tdmw3"]
+points = PackedVector3Array(-0.5, 0, -0.5, -0.5, 0, 0.5, -0.5, 0.02, -0.5, -0.3695184, 0, -0.49148396, -0.5, 0.02, 0.5, 0.5, 0, 0.5, -0.3695184, 0.02, -0.49148396, -0.24128819, 0, -0.4659358, 0.5, 0.02, 0.5, 0.49138606, 0, 0.36942053, -0.24128819, 0.02, -0.4659358, -0.11736491, 0, -0.42394283, 0.49138606, 0.02, 0.36942053, 0.4658379, 0, 0.24109238, -0.11736491, 0.02, -0.42394283, -9.787083e-05, 0, -0.36609238, 0.4658379, 0.02, 0.24109238, 0.42384493, 0, 0.11726701, -9.787083e-05, 0.02, -0.36609238, 0.108751, 0, -0.29336333, 0.42384493, 0.02, 0.11726701, 0.3659945, 0, -9.787083e-05, 0.108751, 0.02, -0.29336333, 0.20702821, 0, -0.20712608, 0.3659945, 0.02, -9.787083e-05, 0.29326546, 0, -0.10884887, 0.20702821, 0.02, -0.20712608, 0.29326546, 0.02, -0.10884887)
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3aseh"]
 resource_name = "colormap"
@@ -1009,7 +1015,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_5wgxk"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_oa37n"]
 resource_name = "road-bridge_road-bridge"
 _surfaces = [{
 "aabb": AABB(-0.5000004, 0, -0.50000036, 1.0000005, 0.52, 1.0000005),
@@ -1037,7 +1043,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_eluak"]
+[sub_resource type="ImageTexture" id="ImageTexture_07t0n"]
 image = SubResource("Image_8k8s8")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7i5b6"]
@@ -1060,7 +1066,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_5tppg"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_eluak"]
 resource_name = "road-crossing_road-crossing"
 _surfaces = [{
 "aabb": AABB(-0.5, 0, -0.5, 1, 0.02, 1),
@@ -1087,7 +1093,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_g8hrr"]
+[sub_resource type="ImageTexture" id="ImageTexture_opcsw"]
 image = SubResource("Image_twth6")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_b65lo"]
@@ -1111,7 +1117,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_cve2k"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_g8hrr"]
 resource_name = "road-crossroad-barrier_road-crossroad-barrier"
 _surfaces = [{
 "aabb": AABB(-0.5, 0, -0.5, 1, 0.08, 1),
@@ -1139,7 +1145,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_x660m"]
+[sub_resource type="ImageTexture" id="ImageTexture_g43n3"]
 image = SubResource("Image_m5hcr")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_dh5in"]
@@ -1162,7 +1168,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_14om6"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_x660m"]
 resource_name = "road-crossroad-line_road-crossroad-line"
 _surfaces = [{
 "aabb": AABB(-0.5, 0, -0.5, 1, 0.02, 1),
@@ -1189,7 +1195,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_4xioo"]
+[sub_resource type="ImageTexture" id="ImageTexture_u6awy"]
 image = SubResource("Image_qcw2b")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_5pv77"]
@@ -1213,7 +1219,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_omrsy"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_4xioo"]
 resource_name = "construction-cone_construction-cone"
 _surfaces = [{
 "aabb": AABB(-0.0375, 0, -0.0375, 0.075, 0.09375, 0.075),
@@ -1241,7 +1247,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_pv21l"]
+[sub_resource type="ImageTexture" id="ImageTexture_d8cbt"]
 image = SubResource("Image_xs3cb")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_f20lq"]
@@ -1264,7 +1270,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_0o8of"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_pv21l"]
 resource_name = "road-crossroad-path_road-crossroad-path"
 _surfaces = [{
 "aabb": AABB(-0.5, 0, -0.5, 1, 0.02, 1),
@@ -1291,7 +1297,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_j711f"]
+[sub_resource type="ImageTexture" id="ImageTexture_sdirx"]
 image = SubResource("Image_s1cg4")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ijkyx"]
@@ -1314,7 +1320,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_l4c47"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_j711f"]
 resource_name = "road-crossroad_road-crossroad"
 _surfaces = [{
 "aabb": AABB(-0.5, 0, -0.5, 1, 0.02, 1),
@@ -1341,7 +1347,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_twsfa"]
+[sub_resource type="ImageTexture" id="ImageTexture_nlrut"]
 image = SubResource("Image_wrfad")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_pqymx"]
@@ -1365,7 +1371,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_nydvy"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_twsfa"]
 resource_name = "road-curve-barrier_road-curve-barrier"
 _surfaces = [{
 "aabb": AABB(-1, 0, -1, 2, 0.08, 2),
@@ -1393,7 +1399,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_vkrd3"]
+[sub_resource type="ImageTexture" id="ImageTexture_27pk2"]
 image = SubResource("Image_oxn1f")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fj2an"]
@@ -1417,7 +1423,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_c0hcn"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_vkrd3"]
 resource_name = "road-curve-intersection-barrier_road-curve-intersection-barrier"
 _surfaces = [{
 "aabb": AABB(-1, 0, -1, 2, 0.08, 2),
@@ -1445,7 +1451,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_vpd85"]
+[sub_resource type="ImageTexture" id="ImageTexture_75s65"]
 image = SubResource("Image_8sblv")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ypfcw"]
@@ -1469,7 +1475,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_pgrq1"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_vpd85"]
 resource_name = "road-curve-intersection_road-curve-intersection"
 _surfaces = [{
 "aabb": AABB(-1, 0, -1, 2, 0.02, 2),
@@ -1497,7 +1503,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_slwwu"]
+[sub_resource type="ImageTexture" id="ImageTexture_mc5w0"]
 image = SubResource("Image_y0sku")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_yuggx"]
@@ -1520,7 +1526,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_3rosk"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_slwwu"]
 resource_name = "road-curve-pavement_road-curve-pavement"
 _surfaces = [{
 "aabb": AABB(-1.0000001, 0, -1, 2, 0.02, 2),
@@ -1547,7 +1553,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_24t0p"]
+[sub_resource type="ImageTexture" id="ImageTexture_2dn8o"]
 image = SubResource("Image_5osw1")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_dhvto"]
@@ -1571,7 +1577,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_a4w66"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_24t0p"]
 resource_name = "road-curve_road-curve"
 _surfaces = [{
 "aabb": AABB(-1, 0, -1, 2, 0.02, 2),
@@ -1599,7 +1605,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_bji82"]
+[sub_resource type="ImageTexture" id="ImageTexture_12o4p"]
 image = SubResource("Image_t3tfy")
 
 [sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_3vqxb"]
@@ -1626,7 +1632,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_avpgs"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_bji82"]
 resource_name = "road-driveway-double-barrier_road-driveway-double-barrier"
 _surfaces = [{
 "aabb": AABB(-0.5, 0, -0.5, 1, 0.08, 1),
@@ -1654,7 +1660,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_y6w8q"]
+[sub_resource type="ImageTexture" id="ImageTexture_wki7t"]
 image = SubResource("Image_1j0mc")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_p5q8b"]
@@ -1677,7 +1683,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_ak36u"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_y6w8q"]
 resource_name = "road-driveway-double_road-driveway-double"
 _surfaces = [{
 "aabb": AABB(-0.5, 0, -0.5, 1, 0.02, 1),
@@ -1704,7 +1710,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_ts0rd"]
+[sub_resource type="ImageTexture" id="ImageTexture_u6byw"]
 image = SubResource("Image_2gkov")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1er5j"]
@@ -1728,7 +1734,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_yrhb7"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_ts0rd"]
 resource_name = "road-driveway-single-barrier_road-driveway-single-barrier"
 _surfaces = [{
 "aabb": AABB(-0.5, 0, -0.5, 1, 0.08, 1),
@@ -1756,7 +1762,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_5ajax"]
+[sub_resource type="ImageTexture" id="ImageTexture_5o7hn"]
 image = SubResource("Image_jjnnd")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ovafc"]
@@ -1780,7 +1786,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_chcp6"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_5ajax"]
 resource_name = "construction-fence_construction-fence"
 _surfaces = [{
 "aabb": AABB(-0.0375, 0, -0.18750009, 0.075, 0.17875, 0.37500018),
@@ -1808,7 +1814,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_4ffu1"]
+[sub_resource type="ImageTexture" id="ImageTexture_m8afu"]
 image = SubResource("Image_m0nnd")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hmfhj"]
@@ -1831,7 +1837,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_m25n3"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_4ffu1"]
 resource_name = "road-driveway-single_road-driveway-single"
 _surfaces = [{
 "aabb": AABB(-0.5, 0, -0.5, 1, 0.02, 1),
@@ -1858,7 +1864,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_1wlbl"]
+[sub_resource type="ImageTexture" id="ImageTexture_dl3e2"]
 image = SubResource("Image_uk1aw")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hdecu"]
@@ -1881,7 +1887,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_2ms3r"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_1wlbl"]
 resource_name = "road-end-barrier_road-end-barrier"
 _surfaces = [{
 "aabb": AABB(-0.5, 0, -0.5, 1, 0.08, 1),
@@ -1908,7 +1914,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_pjq7q"]
+[sub_resource type="ImageTexture" id="ImageTexture_b3ris"]
 image = SubResource("Image_58idf")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wqei5"]
@@ -1932,7 +1938,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_bvhne"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_pjq7q"]
 resource_name = "road-end-round-barrier_road-end-round-barrier"
 _surfaces = [{
 "aabb": AABB(-0.5, 0, -0.50000024, 1, 0.08, 1),
@@ -1960,7 +1966,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_6kx62"]
+[sub_resource type="ImageTexture" id="ImageTexture_d3gao"]
 image = SubResource("Image_yrbor")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_e3d1s"]
@@ -1984,7 +1990,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_7erau"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_6kx62"]
 resource_name = "road-end-round_road-end-round"
 _surfaces = [{
 "aabb": AABB(-0.5, -2.8199664e-18, -0.5, 1, 0.02, 1),
@@ -2012,7 +2018,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_snsy0"]
+[sub_resource type="ImageTexture" id="ImageTexture_mtceu"]
 image = SubResource("Image_8qjol")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_a7k6h"]
@@ -2035,7 +2041,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_hpyup"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_snsy0"]
 resource_name = "road-end_road-end"
 _surfaces = [{
 "aabb": AABB(-0.5, 0, -0.5, 1, 0.02, 1),
@@ -2062,7 +2068,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_e7xlj"]
+[sub_resource type="ImageTexture" id="ImageTexture_utbev"]
 image = SubResource("Image_b0xa0")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jpwcu"]
@@ -2086,7 +2092,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_0m03x"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_e7xlj"]
 resource_name = "road-intersection-barrier_road-intersection-barrier"
 _surfaces = [{
 "aabb": AABB(-0.5, 0, -0.5, 1, 0.08, 1),
@@ -2114,7 +2120,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_apxfg"]
+[sub_resource type="ImageTexture" id="ImageTexture_rqpfv"]
 image = SubResource("Image_6rmuf")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0jfra"]
@@ -2137,7 +2143,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_l8qrp"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_apxfg"]
 resource_name = "road-intersection-line_road-intersection-line"
 _surfaces = [{
 "aabb": AABB(-0.5, 0, -0.5, 1, 0.02, 1),
@@ -2164,7 +2170,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_414rp"]
+[sub_resource type="ImageTexture" id="ImageTexture_vj05g"]
 image = SubResource("Image_af1ot")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_uuqa2"]
@@ -2187,7 +2193,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_0obwo"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_414rp"]
 resource_name = "road-intersection-path_road-intersection-path"
 _surfaces = [{
 "aabb": AABB(-0.5, 0, -0.5, 1, 0.02, 1),
@@ -2214,7 +2220,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_gjsww"]
+[sub_resource type="ImageTexture" id="ImageTexture_jqffr"]
 image = SubResource("Image_wvoj6")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_v2t0x"]
@@ -2237,7 +2243,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_r64tw"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_gjsww"]
 resource_name = "road-intersection_road-intersection"
 _surfaces = [{
 "aabb": AABB(-0.5, 0, -0.5, 1, 0.02, 1.0000001),
@@ -2264,7 +2270,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_0lmmr"]
+[sub_resource type="ImageTexture" id="ImageTexture_i4oa2"]
 image = SubResource("Image_587xw")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qx30l"]
@@ -2288,7 +2294,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_7au34"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_0lmmr"]
 resource_name = "road-roundabout-barrier_road-roundabout-barrier"
 _surfaces = [{
 "aabb": AABB(-1.5, 0, -1.5, 3, 0.08, 3),
@@ -2316,7 +2322,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_31sv2"]
+[sub_resource type="ImageTexture" id="ImageTexture_awpp2"]
 image = SubResource("Image_3vi0y")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_rhmqq"]
@@ -2340,7 +2346,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_k6sh1"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_31sv2"]
 resource_name = "construction-light_construction-light"
 _surfaces = [{
 "aabb": AABB(-0.0375, 0, -0.0375, 0.075, 0.23374999, 0.075),
@@ -2368,7 +2374,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_d36c4"]
+[sub_resource type="ImageTexture" id="ImageTexture_gnggi"]
 image = SubResource("Image_8mvxl")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_kw481"]
@@ -2392,7 +2398,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_rbewx"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_d36c4"]
 resource_name = "road-roundabout_road-roundabout"
 _surfaces = [{
 "aabb": AABB(-1.5, 0, -1.5, 3, 0.02, 3),
@@ -2420,7 +2426,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_dxcbj"]
+[sub_resource type="ImageTexture" id="ImageTexture_havul"]
 image = SubResource("Image_8eq4c")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7pt68"]
@@ -2443,7 +2449,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_f2q43"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_dxcbj"]
 resource_name = "road-side-barrier_road-side-barrier"
 _surfaces = [{
 "aabb": AABB(-0.8100001, 0, -0.5000002, 1.3100003, 0.08, 1.0000002),
@@ -2470,7 +2476,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_8nbff"]
+[sub_resource type="ImageTexture" id="ImageTexture_245y5"]
 image = SubResource("Image_sdiq0")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_aq7em"]
@@ -2494,7 +2500,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_8jp6p"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_8nbff"]
 resource_name = "road-side-entry-barrier_road-side-entry-barrier"
 _surfaces = [{
 "aabb": AABB(-0.81000006, 0, -0.5000001, 1.3100003, 0.08, 1.0000002),
@@ -2522,7 +2528,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_d8mnj"]
+[sub_resource type="ImageTexture" id="ImageTexture_fukiu"]
 image = SubResource("Image_ve2nw")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_56jrx"]
@@ -2546,7 +2552,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_6ts5i"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_d8mnj"]
 resource_name = "road-side-entry_road-side-entry"
 _surfaces = [{
 "aabb": AABB(-0.5, -9.327885e-14, -0.80999994, 1, 0.02, 1.31),
@@ -2574,7 +2580,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_7rcfs"]
+[sub_resource type="ImageTexture" id="ImageTexture_skrdo"]
 image = SubResource("Image_eovio")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_mfs25"]
@@ -2598,7 +2604,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_3gc7e"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_7rcfs"]
 resource_name = "road-side-exit-barrier_road-side-exit-barrier"
 _surfaces = [{
 "aabb": AABB(-0.8100002, 0, -0.49999976, 1.3100003, 0.08, 1.0000002),
@@ -2626,7 +2632,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_7oq32"]
+[sub_resource type="ImageTexture" id="ImageTexture_6f0oa"]
 image = SubResource("Image_jdfed")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_52805"]
@@ -2650,7 +2656,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_rsny4"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_7oq32"]
 resource_name = "road-side-exit_road-side-exit"
 _surfaces = [{
 "aabb": AABB(-0.5, -9.328167e-14, -0.80999994, 1, 0.02, 1.31),
@@ -2678,7 +2684,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_e31y1"]
+[sub_resource type="ImageTexture" id="ImageTexture_30hnv"]
 image = SubResource("Image_odqpd")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ccrn0"]
@@ -2701,7 +2707,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_45r84"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_e31y1"]
 resource_name = "road-side_road-side"
 _surfaces = [{
 "aabb": AABB(-0.5, -2.6507684e-16, -0.80999994, 1, 0.02, 1.31),
@@ -2728,7 +2734,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_vq0le"]
+[sub_resource type="ImageTexture" id="ImageTexture_mc033"]
 image = SubResource("Image_n1a21")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_he2h1"]
@@ -2752,7 +2758,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_dbjfh"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_vq0le"]
 resource_name = "road-sign-empty-hanging_road-sign-empty-hanging"
 _surfaces = [{
 "aabb": AABB(-0.044999998, 0, -0.25, 0.089999996, 0.47499996, 0.295),
@@ -2780,7 +2786,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_chr0w"]
+[sub_resource type="ImageTexture" id="ImageTexture_dpo2e"]
 image = SubResource("Image_wyj72")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_mihue"]
@@ -2804,7 +2810,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_r868b"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_chr0w"]
 resource_name = "road-sign-empty_road-sign-empty"
 _surfaces = [{
 "aabb": AABB(-0.025, 0, -0.025, 0.05, 0.47500002, 0.05),
@@ -2832,7 +2838,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_afw4d"]
+[sub_resource type="ImageTexture" id="ImageTexture_wv0kr"]
 image = SubResource("Image_euev4")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xp7t5"]
@@ -2856,7 +2862,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_mr4ml"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_afw4d"]
 resource_name = "road-sign-object-stop_road-sign-object-stop"
 _surfaces = [{
 "aabb": AABB(-0.039999984, -0.0628238, -0.0628238, 0.0775, 0.1256476, 0.1256476),
@@ -2884,7 +2890,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_5qukx"]
+[sub_resource type="ImageTexture" id="ImageTexture_alvbv"]
 image = SubResource("Image_38rpb")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xqc4x"]
@@ -2908,7 +2914,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_g2ee2"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_5qukx"]
 resource_name = "dumpster_dumpster"
 _surfaces = [{
 "aabb": AABB(-0.13000001, 0, -0.18499996, 0.27500004, 0.2060924, 0.37000015),
@@ -2936,7 +2942,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_mrcxg"]
+[sub_resource type="ImageTexture" id="ImageTexture_4i6at"]
 image = SubResource("Image_coqcg")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_gwmdd"]
@@ -2960,7 +2966,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_cs8pc"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_mrcxg"]
 resource_name = "road-sign-object-street_road-sign-object-street"
 _surfaces = [{
 "aabb": AABB(-0.02125, -0.030000018, -0.02125, 0.0425, 0.060000017, 0.19249979),
@@ -2988,7 +2994,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_d0ubk"]
+[sub_resource type="ImageTexture" id="ImageTexture_jhlq4"]
 image = SubResource("Image_oa37n")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bnu83"]
@@ -3012,7 +3018,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_lejkk"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_d0ubk"]
 resource_name = "road-sign-object-warning_road-sign-object-warning"
 _surfaces = [{
 "aabb": AABB(-0.039692063, -0.06682304, -0.06690329, 0.077346034, 0.13380659, 0.13380659),
@@ -3040,7 +3046,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_r0ace"]
+[sub_resource type="ImageTexture" id="ImageTexture_s4jmp"]
 image = SubResource("Image_5wgxk")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_av2co"]
@@ -3064,7 +3070,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_q5cb0"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_r0ace"]
 resource_name = "road-sign-stop_road-sign-stop"
 _surfaces = [{
 "aabb": AABB(-0.05140397, 0, -0.069106184, 0.0775, 0.4940749, 0.13821237),
@@ -3092,7 +3098,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_wsmfu"]
+[sub_resource type="ImageTexture" id="ImageTexture_ceu40"]
 image = SubResource("Image_07t0n")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_btsuw"]
@@ -3116,7 +3122,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_fo88o"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_wsmfu"]
 resource_name = "road-sign-street_road-sign-street"
 _surfaces = [{
 "aabb": AABB(-0.17125002, 0, -0.025, 0.19625002, 0.47500002, 0.1962498),
@@ -3144,7 +3150,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_c30ts"]
+[sub_resource type="ImageTexture" id="ImageTexture_x4uop"]
 image = SubResource("Image_eluak")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_4w1xb"]
@@ -3168,7 +3174,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_3fo0w"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_c30ts"]
 resource_name = "road-sign-warning_road-sign-warning"
 _surfaces = [{
 "aabb": AABB(-0.051249992, 0, -0.07359362, 0.07734603, 0.49856234, 0.14718723),
@@ -3196,7 +3202,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_ok2sv"]
+[sub_resource type="ImageTexture" id="ImageTexture_bl4mn"]
 image = SubResource("Image_5tppg")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_14l77"]
@@ -3219,7 +3225,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_chjkv"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_ok2sv"]
 resource_name = "road-slant-barrier_road-slant-barrier"
 _surfaces = [{
 "aabb": AABB(-0.5, 0, -0.5, 1, 0.32999998, 1),
@@ -3246,7 +3252,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_lir76"]
+[sub_resource type="ImageTexture" id="ImageTexture_q44i8"]
 image = SubResource("Image_opcsw")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xa37l"]
@@ -3270,7 +3276,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_3tjlg"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_lir76"]
 resource_name = "road-slant-curve-barrier_road-slant-curve-barrier"
 _surfaces = [{
 "aabb": AABB(-1, 0, -0.5, 2, 0.58, 1),
@@ -3298,7 +3304,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_kinlo"]
+[sub_resource type="ImageTexture" id="ImageTexture_6ehw1"]
 image = SubResource("Image_g8hrr")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hluhe"]
@@ -3322,7 +3328,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_ib830"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_kinlo"]
 resource_name = "road-slant-curve_road-slant-curve"
 _surfaces = [{
 "aabb": AABB(-1, 0, -0.5, 2, 0.52, 1),
@@ -3350,7 +3356,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_kxj54"]
+[sub_resource type="ImageTexture" id="ImageTexture_bn7vr"]
 image = SubResource("Image_cve2k")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8rkx5"]
@@ -3374,7 +3380,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_jq2rp"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_kxj54"]
 resource_name = "road-slant-flat-curve_road-slant-flat-curve"
 _surfaces = [{
 "aabb": AABB(-1.0002842, 0, -0.5, 2.0000002, 0.52, 1),
@@ -3402,7 +3408,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_lqmje"]
+[sub_resource type="ImageTexture" id="ImageTexture_eoiwq"]
 image = SubResource("Image_g43n3")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_osugq"]
@@ -3425,7 +3431,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_yxuc4"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_lqmje"]
 resource_name = "road-slant-flat-high_road-slant-flat-high"
 _surfaces = [{
 "aabb": AABB(-0.5, 0, -0.5, 1, 0.52, 1),
@@ -3452,7 +3458,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_rqhci"]
+[sub_resource type="ImageTexture" id="ImageTexture_uevsk"]
 image = SubResource("Image_x660m")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_dvrrb"]
@@ -3476,7 +3482,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_tifuw"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_rqhci"]
 resource_name = "electricity-pole-single_electricity-pole-single"
 _surfaces = [{
 "aabb": AABB(-0.047360003, 4.511975e-16, -0.1071125, 0.079085, 0.525, 0.214225),
@@ -3504,7 +3510,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_14y8x"]
+[sub_resource type="ImageTexture" id="ImageTexture_kpuvi"]
 image = SubResource("Image_14om6")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fpje2"]
@@ -3527,7 +3533,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_qbjwh"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_14y8x"]
 resource_name = "road-slant-flat_road-slant-flat"
 _surfaces = [{
 "aabb": AABB(-0.5, 0, -0.5, 1, 0.26999998, 1),
@@ -3554,7 +3560,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_snrpe"]
+[sub_resource type="ImageTexture" id="ImageTexture_o88ek"]
 image = SubResource("Image_u6awy")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_nbyax"]
@@ -3577,7 +3583,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_2a0lx"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_snrpe"]
 resource_name = "road-slant-high-barrier_road-slant-high-barrier"
 _surfaces = [{
 "aabb": AABB(-0.5, 0, -0.5, 1, 0.58, 1),
@@ -3604,7 +3610,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_mbdk6"]
+[sub_resource type="ImageTexture" id="ImageTexture_3sfj3"]
 image = SubResource("Image_4xioo")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_eciyn"]
@@ -3627,7 +3633,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_nu0jr"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_mbdk6"]
 resource_name = "road-slant-high_road-slant-high"
 _surfaces = [{
 "aabb": AABB(-0.5, 0, -0.5, 1, 0.52, 1),
@@ -3654,7 +3660,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_yfyu3"]
+[sub_resource type="ImageTexture" id="ImageTexture_nw0o5"]
 image = SubResource("Image_omrsy")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_rnfu4"]
@@ -3677,7 +3683,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_627di"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_yfyu3"]
 resource_name = "road-slant_road-slant"
 _surfaces = [{
 "aabb": AABB(-0.5, 0, -0.5, 1, 0.26999998, 1),
@@ -3704,7 +3710,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_5623d"]
+[sub_resource type="ImageTexture" id="ImageTexture_vfgge"]
 image = SubResource("Image_d8cbt")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_p65t1"]
@@ -3728,7 +3734,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_wr8k4"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_5623d"]
 resource_name = "road-split-barrier_road-split-barrier"
 _surfaces = [{
 "aabb": AABB(-0.5, 0, -1, 1, 0.08, 2),
@@ -3756,7 +3762,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_uwbn5"]
+[sub_resource type="ImageTexture" id="ImageTexture_nwpvw"]
 image = SubResource("Image_pv21l")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_gbcqx"]
@@ -3780,7 +3786,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_hea3u"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_uwbn5"]
 resource_name = "road-split_road-split"
 _surfaces = [{
 "aabb": AABB(-0.5, 0, -1, 1, 0.02, 2),
@@ -3808,7 +3814,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_iww06"]
+[sub_resource type="ImageTexture" id="ImageTexture_aeodw"]
 image = SubResource("Image_0o8of")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_rumwv"]
@@ -3831,7 +3837,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_0qooy"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_iww06"]
 resource_name = "road-square-barrier_road-square-barrier"
 _surfaces = [{
 "aabb": AABB(-0.5, 0, -0.5, 1, 0.08, 1),
@@ -3858,7 +3864,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_idi5n"]
+[sub_resource type="ImageTexture" id="ImageTexture_xy7nr"]
 image = SubResource("Image_sdirx")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fcmy0"]
@@ -3881,7 +3887,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_tsbhe"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_idi5n"]
 resource_name = "road-square_road-square"
 _surfaces = [{
 "aabb": AABB(-0.5, 0, -0.5, 1, 0.02, 1),
@@ -3908,7 +3914,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_y3rpv"]
+[sub_resource type="ImageTexture" id="ImageTexture_4b78f"]
 image = SubResource("Image_j711f")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fp3rh"]
@@ -3931,7 +3937,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_t2bqn"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_y3rpv"]
 resource_name = "road-straight-barrier-end_road-straight-barrier-end"
 _surfaces = [{
 "aabb": AABB(-0.5000002, 0, -0.5000001, 1.0000002, 0.08, 1.0000002),
@@ -3958,7 +3964,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_grka3"]
+[sub_resource type="ImageTexture" id="ImageTexture_i1ypy"]
 image = SubResource("Image_l4c47")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_lf5ss"]
@@ -3981,7 +3987,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_0jfik"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_grka3"]
 resource_name = "road-straight-barrier-half_road-straight-barrier-half"
 _surfaces = [{
 "aabb": AABB(-0.50000024, 0, -0.2500001, 1.0000002, 0.08, 0.5000001),
@@ -4008,7 +4014,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_3l5em"]
+[sub_resource type="ImageTexture" id="ImageTexture_obkiy"]
 image = SubResource("Image_nlrut")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_l4gfs"]
@@ -4032,7 +4038,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_pfr2g"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_3l5em"]
 resource_name = "electricity-pole-wide_electricity-pole-wide"
 _surfaces = [{
 "aabb": AABB(-0.54736, 4.511975e-16, -0.1071125, 1.079085, 0.525, 0.214225),
@@ -4060,7 +4066,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_a4w03"]
+[sub_resource type="ImageTexture" id="ImageTexture_7wxbm"]
 image = SubResource("Image_twsfa")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8uu6k"]
@@ -4083,7 +4089,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_ckbs8"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_a4w03"]
 resource_name = "road-straight-barrier_road-straight-barrier"
 _surfaces = [{
 "aabb": AABB(-0.5, 0, -0.5000001, 1.0000002, 0.08, 1.0000002),
@@ -4110,7 +4116,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_7qgjl"]
+[sub_resource type="ImageTexture" id="ImageTexture_eqj32"]
 image = SubResource("Image_nydvy")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_kq27b"]
@@ -4133,7 +4139,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_qw8b6"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_7qgjl"]
 resource_name = "road-straight-half_road-straight-half"
 _surfaces = [{
 "aabb": AABB(-0.25, 0, -0.5, 0.5, 0.02, 1),
@@ -4160,7 +4166,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_l1rn3"]
+[sub_resource type="ImageTexture" id="ImageTexture_7g6ri"]
 image = SubResource("Image_27pk2")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_rov0x"]
@@ -4183,7 +4189,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_ayo6w"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_l1rn3"]
 resource_name = "road-straight_road-straight"
 _surfaces = [{
 "aabb": AABB(-0.5, 0, -0.5, 1, 0.02, 1),
@@ -4210,7 +4216,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_o7lct"]
+[sub_resource type="ImageTexture" id="ImageTexture_t7uv1"]
 image = SubResource("Image_vkrd3")
 
 [sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_pqwt4"]
@@ -4237,7 +4243,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_u86d0"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_o7lct"]
 resource_name = "sign-highway-detailed_sign-highway-detailed"
 _surfaces = [{
 "aabb": AABB(-0.107375026, 0, -0.4999999, 0.13237503, 0.82212496, 0.9999998),
@@ -4265,7 +4271,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_5l1fv"]
+[sub_resource type="ImageTexture" id="ImageTexture_l5ymp"]
 image = SubResource("Image_c0hcn")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_a2dp6"]
@@ -4289,7 +4295,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_gcyex"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_5l1fv"]
 resource_name = "sign-highway-wide_sign-highway-wide"
 _surfaces = [{
 "aabb": AABB(-0.107375026, 0, -0.4999999, 0.13237503, 0.707375, 0.9999998),
@@ -4317,7 +4323,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_vk0b0"]
+[sub_resource type="ImageTexture" id="ImageTexture_r6pq3"]
 image = SubResource("Image_75s65")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jiv77"]
@@ -4341,7 +4347,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_3sawu"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_vk0b0"]
 resource_name = "sign-highway_sign-highway"
 _surfaces = [{
 "aabb": AABB(-0.10737491, 0, -0.4999999, 0.13237491, 0.707375, 0.9999998),
@@ -4369,7 +4375,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_uvf4r"]
+[sub_resource type="ImageTexture" id="ImageTexture_44b8l"]
 image = SubResource("Image_vpd85")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_so3mj"]
@@ -4392,7 +4398,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_6fqpg"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_uvf4r"]
 resource_name = "tile-high_tile-high"
 _surfaces = [{
 "aabb": AABB(-0.5, 0, -0.5, 1, 0.25, 1),
@@ -4419,7 +4425,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_o83jk"]
+[sub_resource type="ImageTexture" id="ImageTexture_xd5xr"]
 image = SubResource("Image_pgrq1")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_n8ouh"]
@@ -4442,7 +4448,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_laaf4"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_o83jk"]
 resource_name = "tile-low_tile-low"
 _surfaces = [{
 "aabb": AABB(-0.5, 0, -0.5, 1, 0.02, 1),
@@ -4469,7 +4475,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_1gsi4"]
+[sub_resource type="ImageTexture" id="ImageTexture_l01fc"]
 image = SubResource("Image_mc5w0")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_c6ow7"]
@@ -4492,7 +4498,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_5jrry"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_1gsi4"]
 resource_name = "tile-slant_tile-slant"
 _surfaces = [{
 "aabb": AABB(-0.5, 0, -0.5, 1, 0.26999998, 1),
@@ -4519,7 +4525,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_ovlaq"]
+[sub_resource type="ImageTexture" id="ImageTexture_sr0gb"]
 image = SubResource("Image_slwwu")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_njnrh"]
@@ -4542,7 +4548,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_igyna"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_ovlaq"]
 resource_name = "tile-slantHigh_tile-slantHigh"
 _surfaces = [{
 "aabb": AABB(-0.5, 0, -0.5, 1, 0.52, 1),
@@ -4569,7 +4575,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_sse6q"]
+[sub_resource type="ImageTexture" id="ImageTexture_ot24r"]
 image = SubResource("Image_3rosk")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_o6ud0"]
@@ -4593,7 +4599,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_bebdv"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_sse6q"]
 resource_name = "electricity-pole_electricity-pole"
 _surfaces = [{
 "aabb": AABB(-0.29736, 4.511975e-16, -0.1071125, 0.579085, 0.525, 0.214225),
@@ -4621,7 +4627,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_kmh65"]
+[sub_resource type="ImageTexture" id="ImageTexture_uc6t2"]
 image = SubResource("Image_2dn8o")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_gr06l"]
@@ -4645,7 +4651,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_si0eu"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_kmh65"]
 resource_name = "traffic-light-hanging_traffic-light-hanging"
 _surfaces = [{
 "aabb": AABB(-0.07259999, 0, -0.2500001, 0.117599994, 0.50909376, 0.29500008),
@@ -4673,7 +4679,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_pcg0h"]
+[sub_resource type="ImageTexture" id="ImageTexture_uj8cr"]
 image = SubResource("Image_24t0p")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1r71a"]
@@ -4697,7 +4703,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_aijgn"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_pcg0h"]
 resource_name = "traffic-light-object-hanging_traffic-light-object-hanging"
 _surfaces = [{
 "aabb": AABB(-0.060099967, -0.071593754, -0.030531252, 0.09759998, 0.1431875, 0.061062504),
@@ -4725,7 +4731,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_p1dt3"]
+[sub_resource type="ImageTexture" id="ImageTexture_yof4l"]
 image = SubResource("Image_a4w66")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_50xg1"]
@@ -4749,7 +4755,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_acwc5"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_p1dt3"]
 resource_name = "traffic-light-object-horizontal_traffic-light-object-horizontal"
 _surfaces = [{
 "aabb": AABB(-0.06010005, -0.030531252, -0.071593754, 0.09760006, 0.061062504, 0.14318751),
@@ -4777,7 +4783,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_pfq4q"]
+[sub_resource type="ImageTexture" id="ImageTexture_qbn0m"]
 image = SubResource("Image_12o4p")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_yig7o"]
@@ -4801,7 +4807,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_u8b8o"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_pfq4q"]
 resource_name = "traffic-light-object-vertical_traffic-light-object-vertical"
 _surfaces = [{
 "aabb": AABB(-0.060099967, -0.071593754, -0.030531252, 0.09759998, 0.1431875, 0.061062504),
@@ -4829,7 +4835,7 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_u2bfj"]
+[sub_resource type="ImageTexture" id="ImageTexture_2gv1p"]
 image = SubResource("Image_bji82")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vny2r"]
@@ -4853,7 +4859,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_rxabe"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_u2bfj"]
 resource_name = "traffic-light_traffic-light"
 _surfaces = [{
 "aabb": AABB(-0.0726, 2.2558181e-17, -0.044999998, 0.117599994, 0.515, 0.089999996),
@@ -4881,767 +4887,767 @@ data = {
 "width": 64
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_pnhwm"]
+[sub_resource type="ImageTexture" id="ImageTexture_atxv0"]
 image = SubResource("Image_avpgs")
 
 [resource]
 item/0/name = "bridge-pillar-wide"
-item/0/mesh = SubResource("ArrayMesh_sxd4q")
+item/0/mesh = SubResource("ArrayMesh_bfj3r")
 item/0/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/0/mesh_cast_shadow = 1
 item/0/shapes = []
 item/0/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/0/navigation_layers = 1
-item/0/preview = SubResource("ImageTexture_x8ol7")
+item/0/preview = SubResource("ImageTexture_blvba")
 item/1/name = "bridge-pillar"
-item/1/mesh = SubResource("ArrayMesh_ui1ru")
+item/1/mesh = SubResource("ArrayMesh_x8ol7")
 item/1/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/1/mesh_cast_shadow = 1
 item/1/shapes = []
 item/1/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/1/navigation_layers = 1
-item/1/preview = SubResource("ImageTexture_tmq72")
+item/1/preview = SubResource("ImageTexture_anmv3")
 item/2/name = "construction-barrier"
-item/2/mesh = SubResource("ArrayMesh_yrbor")
+item/2/mesh = SubResource("ArrayMesh_58idf")
 item/2/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/2/mesh_cast_shadow = 1
 item/2/shapes = []
 item/2/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/2/navigation_layers = 1
-item/2/preview = SubResource("ImageTexture_b0xa0")
+item/2/preview = SubResource("ImageTexture_8qjol")
 item/3/name = "construction-cone"
-item/3/mesh = SubResource("ArrayMesh_omrsy")
+item/3/mesh = SubResource("ArrayMesh_4xioo")
 item/3/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/3/mesh_cast_shadow = 1
 item/3/shapes = []
 item/3/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/3/navigation_layers = 1
-item/3/preview = SubResource("ImageTexture_pv21l")
+item/3/preview = SubResource("ImageTexture_d8cbt")
 item/4/name = "construction-fence"
-item/4/mesh = SubResource("ArrayMesh_chcp6")
+item/4/mesh = SubResource("ArrayMesh_5ajax")
 item/4/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/4/mesh_cast_shadow = 1
 item/4/shapes = []
 item/4/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/4/navigation_layers = 1
-item/4/preview = SubResource("ImageTexture_4ffu1")
+item/4/preview = SubResource("ImageTexture_m8afu")
 item/5/name = "construction-light"
-item/5/mesh = SubResource("ArrayMesh_k6sh1")
+item/5/mesh = SubResource("ArrayMesh_31sv2")
 item/5/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/5/mesh_cast_shadow = 1
 item/5/shapes = []
 item/5/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/5/navigation_layers = 1
-item/5/preview = SubResource("ImageTexture_d36c4")
+item/5/preview = SubResource("ImageTexture_gnggi")
 item/6/name = "dumpster"
-item/6/mesh = SubResource("ArrayMesh_g2ee2")
+item/6/mesh = SubResource("ArrayMesh_5qukx")
 item/6/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/6/mesh_cast_shadow = 1
 item/6/shapes = []
 item/6/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/6/navigation_layers = 1
-item/6/preview = SubResource("ImageTexture_mrcxg")
+item/6/preview = SubResource("ImageTexture_4i6at")
 item/7/name = "electricity-pole-single"
-item/7/mesh = SubResource("ArrayMesh_tifuw")
+item/7/mesh = SubResource("ArrayMesh_rqhci")
 item/7/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/7/mesh_cast_shadow = 1
 item/7/shapes = []
 item/7/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/7/navigation_layers = 1
-item/7/preview = SubResource("ImageTexture_14y8x")
+item/7/preview = SubResource("ImageTexture_kpuvi")
 item/8/name = "electricity-pole-wide"
-item/8/mesh = SubResource("ArrayMesh_pfr2g")
+item/8/mesh = SubResource("ArrayMesh_3l5em")
 item/8/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/8/mesh_cast_shadow = 1
 item/8/shapes = []
 item/8/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/8/navigation_layers = 1
-item/8/preview = SubResource("ImageTexture_a4w03")
+item/8/preview = SubResource("ImageTexture_7wxbm")
 item/9/name = "electricity-pole"
-item/9/mesh = SubResource("ArrayMesh_bebdv")
+item/9/mesh = SubResource("ArrayMesh_sse6q")
 item/9/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/9/mesh_cast_shadow = 1
 item/9/shapes = []
 item/9/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/9/navigation_layers = 1
-item/9/preview = SubResource("ImageTexture_kmh65")
+item/9/preview = SubResource("ImageTexture_uc6t2")
 item/10/name = "electricity-side-single"
-item/10/mesh = SubResource("ArrayMesh_xeabp")
+item/10/mesh = SubResource("ArrayMesh_tmq72")
 item/10/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/10/mesh_cast_shadow = 1
 item/10/shapes = []
 item/10/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/10/navigation_layers = 1
-item/10/preview = SubResource("ImageTexture_u4nx3")
+item/10/preview = SubResource("ImageTexture_f55cu")
 item/11/name = "electricity-side-wide"
-item/11/mesh = SubResource("ArrayMesh_hxvec")
+item/11/mesh = SubResource("ArrayMesh_u4nx3")
 item/11/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/11/mesh_cast_shadow = 1
 item/11/shapes = []
 item/11/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/11/navigation_layers = 1
-item/11/preview = SubResource("ImageTexture_nuduo")
+item/11/preview = SubResource("ImageTexture_24tpp")
 item/12/name = "electricity-side"
-item/12/mesh = SubResource("ArrayMesh_xqui8")
+item/12/mesh = SubResource("ArrayMesh_nuduo")
 item/12/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/12/mesh_cast_shadow = 1
 item/12/shapes = []
 item/12/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/12/navigation_layers = 1
-item/12/preview = SubResource("ImageTexture_jxmpn")
+item/12/preview = SubResource("ImageTexture_yckg3")
 item/13/name = "electricity-wires-wide"
-item/13/mesh = SubResource("ArrayMesh_aixsd")
+item/13/mesh = SubResource("ArrayMesh_jxmpn")
 item/13/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/13/mesh_cast_shadow = 1
 item/13/shapes = []
 item/13/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/13/navigation_layers = 1
-item/13/preview = SubResource("ImageTexture_j3ya0")
+item/13/preview = SubResource("ImageTexture_t4w8u")
 item/14/name = "electricity-wires"
-item/14/mesh = SubResource("ArrayMesh_8k8s8")
+item/14/mesh = SubResource("ArrayMesh_j3ya0")
 item/14/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/14/mesh_cast_shadow = 1
 item/14/shapes = []
 item/14/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/14/navigation_layers = 1
-item/14/preview = SubResource("ImageTexture_m5hcr")
+item/14/preview = SubResource("ImageTexture_twth6")
 item/15/name = "light-curved-cross"
-item/15/mesh = SubResource("ArrayMesh_qcw2b")
+item/15/mesh = SubResource("ArrayMesh_m5hcr")
 item/15/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/15/mesh_cast_shadow = 1
 item/15/shapes = []
 item/15/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/15/navigation_layers = 1
-item/15/preview = SubResource("ImageTexture_s1cg4")
+item/15/preview = SubResource("ImageTexture_xs3cb")
 item/16/name = "light-curved-double"
-item/16/mesh = SubResource("ArrayMesh_wrfad")
+item/16/mesh = SubResource("ArrayMesh_s1cg4")
 item/16/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/16/mesh_cast_shadow = 1
 item/16/shapes = []
 item/16/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/16/navigation_layers = 1
-item/16/preview = SubResource("ImageTexture_8sblv")
+item/16/preview = SubResource("ImageTexture_oxn1f")
 item/17/name = "light-curved"
-item/17/mesh = SubResource("ArrayMesh_y0sku")
+item/17/mesh = SubResource("ArrayMesh_8sblv")
 item/17/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/17/mesh_cast_shadow = 1
 item/17/shapes = []
 item/17/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/17/navigation_layers = 1
-item/17/preview = SubResource("ImageTexture_t3tfy")
+item/17/preview = SubResource("ImageTexture_5osw1")
 item/18/name = "light-square-cross"
-item/18/mesh = SubResource("ArrayMesh_1j0mc")
+item/18/mesh = SubResource("ArrayMesh_t3tfy")
 item/18/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/18/mesh_cast_shadow = 1
 item/18/shapes = []
 item/18/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/18/navigation_layers = 1
-item/18/preview = SubResource("ImageTexture_jjnnd")
+item/18/preview = SubResource("ImageTexture_2gkov")
 item/19/name = "light-square-double"
-item/19/mesh = SubResource("ArrayMesh_m0nnd")
+item/19/mesh = SubResource("ArrayMesh_jjnnd")
 item/19/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/19/mesh_cast_shadow = 1
 item/19/shapes = []
 item/19/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/19/navigation_layers = 1
-item/19/preview = SubResource("ImageTexture_58idf")
+item/19/preview = SubResource("ImageTexture_uk1aw")
 item/20/name = "light-square"
-item/20/mesh = SubResource("ArrayMesh_6rmuf")
+item/20/mesh = SubResource("ArrayMesh_b0xa0")
 item/20/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/20/mesh_cast_shadow = 1
 item/20/shapes = []
 item/20/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/20/navigation_layers = 1
-item/20/preview = SubResource("ImageTexture_wvoj6")
+item/20/preview = SubResource("ImageTexture_af1ot")
 item/21/name = "road-bend-barrier"
-item/21/mesh = SubResource("ArrayMesh_587xw")
+item/21/mesh = SubResource("ArrayMesh_wvoj6")
 item/21/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/21/mesh_cast_shadow = 1
 item/21/shapes = []
 item/21/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/21/navigation_layers = 1
-item/21/preview = SubResource("ImageTexture_8mvxl")
+item/21/preview = SubResource("ImageTexture_3vi0y")
 item/22/name = "road-bend-sidewalk"
-item/22/mesh = SubResource("ArrayMesh_8eq4c")
+item/22/mesh = SubResource("ArrayMesh_8mvxl")
 item/22/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/22/mesh_cast_shadow = 1
-item/22/shapes = []
+item/22/shapes = [SubResource("ConvexPolygonShape3D_s6jxg"), Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)]
 item/22/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/22/navigation_layers = 1
-item/22/preview = SubResource("ImageTexture_ve2nw")
+item/22/preview = SubResource("ImageTexture_sdiq0")
 item/23/name = "road-bend-square-barrier"
-item/23/mesh = SubResource("ArrayMesh_eovio")
+item/23/mesh = SubResource("ArrayMesh_ve2nw")
 item/23/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/23/mesh_cast_shadow = 1
 item/23/shapes = []
 item/23/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/23/navigation_layers = 1
-item/23/preview = SubResource("ImageTexture_odqpd")
+item/23/preview = SubResource("ImageTexture_jdfed")
 item/24/name = "road-bend-square"
-item/24/mesh = SubResource("ArrayMesh_n1a21")
+item/24/mesh = SubResource("ArrayMesh_odqpd")
 item/24/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/24/mesh_cast_shadow = 1
 item/24/shapes = []
 item/24/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/24/navigation_layers = 1
-item/24/preview = SubResource("ImageTexture_euev4")
+item/24/preview = SubResource("ImageTexture_wyj72")
 item/25/name = "road-bend"
-item/25/mesh = SubResource("ArrayMesh_38rpb")
+item/25/mesh = SubResource("ArrayMesh_euev4")
 item/25/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/25/mesh_cast_shadow = 1
-item/25/shapes = []
+item/25/shapes = [SubResource("ConvexPolygonShape3D_tdmw3"), Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)]
 item/25/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/25/navigation_layers = 1
-item/25/preview = SubResource("ImageTexture_oa37n")
+item/25/preview = SubResource("ImageTexture_coqcg")
 item/26/name = "road-bridge"
-item/26/mesh = SubResource("ArrayMesh_5wgxk")
+item/26/mesh = SubResource("ArrayMesh_oa37n")
 item/26/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/26/mesh_cast_shadow = 1
 item/26/shapes = []
 item/26/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/26/navigation_layers = 1
-item/26/preview = SubResource("ImageTexture_eluak")
+item/26/preview = SubResource("ImageTexture_07t0n")
 item/27/name = "road-crossing"
-item/27/mesh = SubResource("ArrayMesh_5tppg")
+item/27/mesh = SubResource("ArrayMesh_eluak")
 item/27/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/27/mesh_cast_shadow = 1
 item/27/shapes = []
 item/27/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/27/navigation_layers = 1
-item/27/preview = SubResource("ImageTexture_g8hrr")
+item/27/preview = SubResource("ImageTexture_opcsw")
 item/28/name = "road-crossroad-barrier"
-item/28/mesh = SubResource("ArrayMesh_cve2k")
+item/28/mesh = SubResource("ArrayMesh_g8hrr")
 item/28/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/28/mesh_cast_shadow = 1
 item/28/shapes = []
 item/28/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/28/navigation_layers = 1
-item/28/preview = SubResource("ImageTexture_x660m")
+item/28/preview = SubResource("ImageTexture_g43n3")
 item/29/name = "road-crossroad-line"
-item/29/mesh = SubResource("ArrayMesh_14om6")
+item/29/mesh = SubResource("ArrayMesh_x660m")
 item/29/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/29/mesh_cast_shadow = 1
 item/29/shapes = []
 item/29/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/29/navigation_layers = 1
-item/29/preview = SubResource("ImageTexture_4xioo")
+item/29/preview = SubResource("ImageTexture_u6awy")
 item/30/name = "road-crossroad-path"
-item/30/mesh = SubResource("ArrayMesh_0o8of")
+item/30/mesh = SubResource("ArrayMesh_pv21l")
 item/30/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/30/mesh_cast_shadow = 1
 item/30/shapes = []
 item/30/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/30/navigation_layers = 1
-item/30/preview = SubResource("ImageTexture_j711f")
+item/30/preview = SubResource("ImageTexture_sdirx")
 item/31/name = "road-crossroad"
-item/31/mesh = SubResource("ArrayMesh_l4c47")
+item/31/mesh = SubResource("ArrayMesh_j711f")
 item/31/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/31/mesh_cast_shadow = 1
 item/31/shapes = []
 item/31/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/31/navigation_layers = 1
-item/31/preview = SubResource("ImageTexture_twsfa")
+item/31/preview = SubResource("ImageTexture_nlrut")
 item/32/name = "road-curve-barrier"
-item/32/mesh = SubResource("ArrayMesh_nydvy")
+item/32/mesh = SubResource("ArrayMesh_twsfa")
 item/32/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/32/mesh_cast_shadow = 1
 item/32/shapes = []
 item/32/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/32/navigation_layers = 1
-item/32/preview = SubResource("ImageTexture_vkrd3")
+item/32/preview = SubResource("ImageTexture_27pk2")
 item/33/name = "road-curve-intersection-barrier"
-item/33/mesh = SubResource("ArrayMesh_c0hcn")
+item/33/mesh = SubResource("ArrayMesh_vkrd3")
 item/33/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/33/mesh_cast_shadow = 1
 item/33/shapes = []
 item/33/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/33/navigation_layers = 1
-item/33/preview = SubResource("ImageTexture_vpd85")
+item/33/preview = SubResource("ImageTexture_75s65")
 item/34/name = "road-curve-intersection"
-item/34/mesh = SubResource("ArrayMesh_pgrq1")
+item/34/mesh = SubResource("ArrayMesh_vpd85")
 item/34/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/34/mesh_cast_shadow = 1
 item/34/shapes = []
 item/34/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/34/navigation_layers = 1
-item/34/preview = SubResource("ImageTexture_slwwu")
+item/34/preview = SubResource("ImageTexture_mc5w0")
 item/35/name = "road-curve-pavement"
-item/35/mesh = SubResource("ArrayMesh_3rosk")
+item/35/mesh = SubResource("ArrayMesh_slwwu")
 item/35/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/35/mesh_cast_shadow = 1
 item/35/shapes = []
 item/35/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/35/navigation_layers = 1
-item/35/preview = SubResource("ImageTexture_24t0p")
+item/35/preview = SubResource("ImageTexture_2dn8o")
 item/36/name = "road-curve"
-item/36/mesh = SubResource("ArrayMesh_a4w66")
+item/36/mesh = SubResource("ArrayMesh_24t0p")
 item/36/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/36/mesh_cast_shadow = 1
 item/36/shapes = [SubResource("ConvexPolygonShape3D_3vqxb"), Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)]
 item/36/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/36/navigation_layers = 1
-item/36/preview = SubResource("ImageTexture_bji82")
+item/36/preview = SubResource("ImageTexture_12o4p")
 item/37/name = "road-driveway-double-barrier"
-item/37/mesh = SubResource("ArrayMesh_avpgs")
+item/37/mesh = SubResource("ArrayMesh_bji82")
 item/37/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/37/mesh_cast_shadow = 1
 item/37/shapes = []
 item/37/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/37/navigation_layers = 1
-item/37/preview = SubResource("ImageTexture_y6w8q")
+item/37/preview = SubResource("ImageTexture_wki7t")
 item/38/name = "road-driveway-double"
-item/38/mesh = SubResource("ArrayMesh_ak36u")
+item/38/mesh = SubResource("ArrayMesh_y6w8q")
 item/38/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/38/mesh_cast_shadow = 1
 item/38/shapes = []
 item/38/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/38/navigation_layers = 1
-item/38/preview = SubResource("ImageTexture_ts0rd")
+item/38/preview = SubResource("ImageTexture_u6byw")
 item/39/name = "road-driveway-single-barrier"
-item/39/mesh = SubResource("ArrayMesh_yrhb7")
+item/39/mesh = SubResource("ArrayMesh_ts0rd")
 item/39/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/39/mesh_cast_shadow = 1
 item/39/shapes = []
 item/39/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/39/navigation_layers = 1
-item/39/preview = SubResource("ImageTexture_5ajax")
+item/39/preview = SubResource("ImageTexture_5o7hn")
 item/40/name = "road-driveway-single"
-item/40/mesh = SubResource("ArrayMesh_m25n3")
+item/40/mesh = SubResource("ArrayMesh_4ffu1")
 item/40/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/40/mesh_cast_shadow = 1
 item/40/shapes = []
 item/40/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/40/navigation_layers = 1
-item/40/preview = SubResource("ImageTexture_1wlbl")
+item/40/preview = SubResource("ImageTexture_dl3e2")
 item/41/name = "road-end-barrier"
-item/41/mesh = SubResource("ArrayMesh_2ms3r")
+item/41/mesh = SubResource("ArrayMesh_1wlbl")
 item/41/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/41/mesh_cast_shadow = 1
 item/41/shapes = []
 item/41/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/41/navigation_layers = 1
-item/41/preview = SubResource("ImageTexture_pjq7q")
+item/41/preview = SubResource("ImageTexture_b3ris")
 item/42/name = "road-end-round-barrier"
-item/42/mesh = SubResource("ArrayMesh_bvhne")
+item/42/mesh = SubResource("ArrayMesh_pjq7q")
 item/42/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/42/mesh_cast_shadow = 1
 item/42/shapes = []
 item/42/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/42/navigation_layers = 1
-item/42/preview = SubResource("ImageTexture_6kx62")
+item/42/preview = SubResource("ImageTexture_d3gao")
 item/43/name = "road-end-round"
-item/43/mesh = SubResource("ArrayMesh_7erau")
+item/43/mesh = SubResource("ArrayMesh_6kx62")
 item/43/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/43/mesh_cast_shadow = 1
 item/43/shapes = []
 item/43/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/43/navigation_layers = 1
-item/43/preview = SubResource("ImageTexture_snsy0")
+item/43/preview = SubResource("ImageTexture_mtceu")
 item/44/name = "road-end"
-item/44/mesh = SubResource("ArrayMesh_hpyup")
+item/44/mesh = SubResource("ArrayMesh_snsy0")
 item/44/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/44/mesh_cast_shadow = 1
 item/44/shapes = []
 item/44/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/44/navigation_layers = 1
-item/44/preview = SubResource("ImageTexture_e7xlj")
+item/44/preview = SubResource("ImageTexture_utbev")
 item/45/name = "road-intersection-barrier"
-item/45/mesh = SubResource("ArrayMesh_0m03x")
+item/45/mesh = SubResource("ArrayMesh_e7xlj")
 item/45/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/45/mesh_cast_shadow = 1
 item/45/shapes = []
 item/45/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/45/navigation_layers = 1
-item/45/preview = SubResource("ImageTexture_apxfg")
+item/45/preview = SubResource("ImageTexture_rqpfv")
 item/46/name = "road-intersection-line"
-item/46/mesh = SubResource("ArrayMesh_l8qrp")
+item/46/mesh = SubResource("ArrayMesh_apxfg")
 item/46/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/46/mesh_cast_shadow = 1
 item/46/shapes = []
 item/46/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/46/navigation_layers = 1
-item/46/preview = SubResource("ImageTexture_414rp")
+item/46/preview = SubResource("ImageTexture_vj05g")
 item/47/name = "road-intersection-path"
-item/47/mesh = SubResource("ArrayMesh_0obwo")
+item/47/mesh = SubResource("ArrayMesh_414rp")
 item/47/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/47/mesh_cast_shadow = 1
 item/47/shapes = []
 item/47/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/47/navigation_layers = 1
-item/47/preview = SubResource("ImageTexture_gjsww")
+item/47/preview = SubResource("ImageTexture_jqffr")
 item/48/name = "road-intersection"
-item/48/mesh = SubResource("ArrayMesh_r64tw")
+item/48/mesh = SubResource("ArrayMesh_gjsww")
 item/48/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/48/mesh_cast_shadow = 1
 item/48/shapes = []
 item/48/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/48/navigation_layers = 1
-item/48/preview = SubResource("ImageTexture_0lmmr")
+item/48/preview = SubResource("ImageTexture_i4oa2")
 item/49/name = "road-roundabout-barrier"
-item/49/mesh = SubResource("ArrayMesh_7au34")
+item/49/mesh = SubResource("ArrayMesh_0lmmr")
 item/49/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/49/mesh_cast_shadow = 1
 item/49/shapes = []
 item/49/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/49/navigation_layers = 1
-item/49/preview = SubResource("ImageTexture_31sv2")
+item/49/preview = SubResource("ImageTexture_awpp2")
 item/50/name = "road-roundabout"
-item/50/mesh = SubResource("ArrayMesh_rbewx")
+item/50/mesh = SubResource("ArrayMesh_d36c4")
 item/50/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/50/mesh_cast_shadow = 1
 item/50/shapes = []
 item/50/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/50/navigation_layers = 1
-item/50/preview = SubResource("ImageTexture_dxcbj")
+item/50/preview = SubResource("ImageTexture_havul")
 item/51/name = "road-side-barrier"
-item/51/mesh = SubResource("ArrayMesh_f2q43")
+item/51/mesh = SubResource("ArrayMesh_dxcbj")
 item/51/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/51/mesh_cast_shadow = 1
 item/51/shapes = []
 item/51/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/51/navigation_layers = 1
-item/51/preview = SubResource("ImageTexture_8nbff")
+item/51/preview = SubResource("ImageTexture_245y5")
 item/52/name = "road-side-entry-barrier"
-item/52/mesh = SubResource("ArrayMesh_8jp6p")
+item/52/mesh = SubResource("ArrayMesh_8nbff")
 item/52/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/52/mesh_cast_shadow = 1
 item/52/shapes = []
 item/52/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/52/navigation_layers = 1
-item/52/preview = SubResource("ImageTexture_d8mnj")
+item/52/preview = SubResource("ImageTexture_fukiu")
 item/53/name = "road-side-entry"
-item/53/mesh = SubResource("ArrayMesh_6ts5i")
+item/53/mesh = SubResource("ArrayMesh_d8mnj")
 item/53/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/53/mesh_cast_shadow = 1
 item/53/shapes = []
 item/53/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/53/navigation_layers = 1
-item/53/preview = SubResource("ImageTexture_7rcfs")
+item/53/preview = SubResource("ImageTexture_skrdo")
 item/54/name = "road-side-exit-barrier"
-item/54/mesh = SubResource("ArrayMesh_3gc7e")
+item/54/mesh = SubResource("ArrayMesh_7rcfs")
 item/54/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/54/mesh_cast_shadow = 1
 item/54/shapes = []
 item/54/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/54/navigation_layers = 1
-item/54/preview = SubResource("ImageTexture_7oq32")
+item/54/preview = SubResource("ImageTexture_6f0oa")
 item/55/name = "road-side-exit"
-item/55/mesh = SubResource("ArrayMesh_rsny4")
+item/55/mesh = SubResource("ArrayMesh_7oq32")
 item/55/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/55/mesh_cast_shadow = 1
 item/55/shapes = []
 item/55/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/55/navigation_layers = 1
-item/55/preview = SubResource("ImageTexture_e31y1")
+item/55/preview = SubResource("ImageTexture_30hnv")
 item/56/name = "road-side"
-item/56/mesh = SubResource("ArrayMesh_45r84")
+item/56/mesh = SubResource("ArrayMesh_e31y1")
 item/56/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/56/mesh_cast_shadow = 1
 item/56/shapes = []
 item/56/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/56/navigation_layers = 1
-item/56/preview = SubResource("ImageTexture_vq0le")
+item/56/preview = SubResource("ImageTexture_mc033")
 item/57/name = "road-sign-empty-hanging"
-item/57/mesh = SubResource("ArrayMesh_dbjfh")
+item/57/mesh = SubResource("ArrayMesh_vq0le")
 item/57/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/57/mesh_cast_shadow = 1
 item/57/shapes = []
 item/57/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/57/navigation_layers = 1
-item/57/preview = SubResource("ImageTexture_chr0w")
+item/57/preview = SubResource("ImageTexture_dpo2e")
 item/58/name = "road-sign-empty"
-item/58/mesh = SubResource("ArrayMesh_r868b")
+item/58/mesh = SubResource("ArrayMesh_chr0w")
 item/58/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/58/mesh_cast_shadow = 1
 item/58/shapes = []
 item/58/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/58/navigation_layers = 1
-item/58/preview = SubResource("ImageTexture_afw4d")
+item/58/preview = SubResource("ImageTexture_wv0kr")
 item/59/name = "road-sign-object-stop"
-item/59/mesh = SubResource("ArrayMesh_mr4ml")
+item/59/mesh = SubResource("ArrayMesh_afw4d")
 item/59/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/59/mesh_cast_shadow = 1
 item/59/shapes = []
 item/59/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/59/navigation_layers = 1
-item/59/preview = SubResource("ImageTexture_5qukx")
+item/59/preview = SubResource("ImageTexture_alvbv")
 item/60/name = "road-sign-object-street"
-item/60/mesh = SubResource("ArrayMesh_cs8pc")
+item/60/mesh = SubResource("ArrayMesh_mrcxg")
 item/60/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/60/mesh_cast_shadow = 1
 item/60/shapes = []
 item/60/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/60/navigation_layers = 1
-item/60/preview = SubResource("ImageTexture_d0ubk")
+item/60/preview = SubResource("ImageTexture_jhlq4")
 item/61/name = "road-sign-object-warning"
-item/61/mesh = SubResource("ArrayMesh_lejkk")
+item/61/mesh = SubResource("ArrayMesh_d0ubk")
 item/61/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/61/mesh_cast_shadow = 1
 item/61/shapes = []
 item/61/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/61/navigation_layers = 1
-item/61/preview = SubResource("ImageTexture_r0ace")
+item/61/preview = SubResource("ImageTexture_s4jmp")
 item/62/name = "road-sign-stop"
-item/62/mesh = SubResource("ArrayMesh_q5cb0")
+item/62/mesh = SubResource("ArrayMesh_r0ace")
 item/62/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/62/mesh_cast_shadow = 1
 item/62/shapes = []
 item/62/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/62/navigation_layers = 1
-item/62/preview = SubResource("ImageTexture_wsmfu")
+item/62/preview = SubResource("ImageTexture_ceu40")
 item/63/name = "road-sign-street"
-item/63/mesh = SubResource("ArrayMesh_fo88o")
+item/63/mesh = SubResource("ArrayMesh_wsmfu")
 item/63/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/63/mesh_cast_shadow = 1
 item/63/shapes = []
 item/63/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/63/navigation_layers = 1
-item/63/preview = SubResource("ImageTexture_c30ts")
+item/63/preview = SubResource("ImageTexture_x4uop")
 item/64/name = "road-sign-warning"
-item/64/mesh = SubResource("ArrayMesh_3fo0w")
+item/64/mesh = SubResource("ArrayMesh_c30ts")
 item/64/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/64/mesh_cast_shadow = 1
 item/64/shapes = []
 item/64/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/64/navigation_layers = 1
-item/64/preview = SubResource("ImageTexture_ok2sv")
+item/64/preview = SubResource("ImageTexture_bl4mn")
 item/65/name = "road-slant-barrier"
-item/65/mesh = SubResource("ArrayMesh_chjkv")
+item/65/mesh = SubResource("ArrayMesh_ok2sv")
 item/65/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/65/mesh_cast_shadow = 1
 item/65/shapes = []
 item/65/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/65/navigation_layers = 1
-item/65/preview = SubResource("ImageTexture_lir76")
+item/65/preview = SubResource("ImageTexture_q44i8")
 item/66/name = "road-slant-curve-barrier"
-item/66/mesh = SubResource("ArrayMesh_3tjlg")
+item/66/mesh = SubResource("ArrayMesh_lir76")
 item/66/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/66/mesh_cast_shadow = 1
 item/66/shapes = []
 item/66/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/66/navigation_layers = 1
-item/66/preview = SubResource("ImageTexture_kinlo")
+item/66/preview = SubResource("ImageTexture_6ehw1")
 item/67/name = "road-slant-curve"
-item/67/mesh = SubResource("ArrayMesh_ib830")
+item/67/mesh = SubResource("ArrayMesh_kinlo")
 item/67/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/67/mesh_cast_shadow = 1
 item/67/shapes = []
 item/67/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/67/navigation_layers = 1
-item/67/preview = SubResource("ImageTexture_kxj54")
+item/67/preview = SubResource("ImageTexture_bn7vr")
 item/68/name = "road-slant-flat-curve"
-item/68/mesh = SubResource("ArrayMesh_jq2rp")
+item/68/mesh = SubResource("ArrayMesh_kxj54")
 item/68/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/68/mesh_cast_shadow = 1
 item/68/shapes = []
 item/68/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/68/navigation_layers = 1
-item/68/preview = SubResource("ImageTexture_lqmje")
+item/68/preview = SubResource("ImageTexture_eoiwq")
 item/69/name = "road-slant-flat-high"
-item/69/mesh = SubResource("ArrayMesh_yxuc4")
+item/69/mesh = SubResource("ArrayMesh_lqmje")
 item/69/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/69/mesh_cast_shadow = 1
 item/69/shapes = []
 item/69/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/69/navigation_layers = 1
-item/69/preview = SubResource("ImageTexture_rqhci")
+item/69/preview = SubResource("ImageTexture_uevsk")
 item/70/name = "road-slant-flat"
-item/70/mesh = SubResource("ArrayMesh_qbjwh")
+item/70/mesh = SubResource("ArrayMesh_14y8x")
 item/70/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/70/mesh_cast_shadow = 1
 item/70/shapes = []
 item/70/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/70/navigation_layers = 1
-item/70/preview = SubResource("ImageTexture_snrpe")
+item/70/preview = SubResource("ImageTexture_o88ek")
 item/71/name = "road-slant-high-barrier"
-item/71/mesh = SubResource("ArrayMesh_2a0lx")
+item/71/mesh = SubResource("ArrayMesh_snrpe")
 item/71/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/71/mesh_cast_shadow = 1
 item/71/shapes = []
 item/71/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/71/navigation_layers = 1
-item/71/preview = SubResource("ImageTexture_mbdk6")
+item/71/preview = SubResource("ImageTexture_3sfj3")
 item/72/name = "road-slant-high"
-item/72/mesh = SubResource("ArrayMesh_nu0jr")
+item/72/mesh = SubResource("ArrayMesh_mbdk6")
 item/72/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/72/mesh_cast_shadow = 1
 item/72/shapes = []
 item/72/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/72/navigation_layers = 1
-item/72/preview = SubResource("ImageTexture_yfyu3")
+item/72/preview = SubResource("ImageTexture_nw0o5")
 item/73/name = "road-slant"
-item/73/mesh = SubResource("ArrayMesh_627di")
+item/73/mesh = SubResource("ArrayMesh_yfyu3")
 item/73/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/73/mesh_cast_shadow = 1
 item/73/shapes = []
 item/73/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/73/navigation_layers = 1
-item/73/preview = SubResource("ImageTexture_5623d")
+item/73/preview = SubResource("ImageTexture_vfgge")
 item/74/name = "road-split-barrier"
-item/74/mesh = SubResource("ArrayMesh_wr8k4")
+item/74/mesh = SubResource("ArrayMesh_5623d")
 item/74/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/74/mesh_cast_shadow = 1
 item/74/shapes = []
 item/74/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/74/navigation_layers = 1
-item/74/preview = SubResource("ImageTexture_uwbn5")
+item/74/preview = SubResource("ImageTexture_nwpvw")
 item/75/name = "road-split"
-item/75/mesh = SubResource("ArrayMesh_hea3u")
+item/75/mesh = SubResource("ArrayMesh_uwbn5")
 item/75/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/75/mesh_cast_shadow = 1
 item/75/shapes = []
 item/75/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/75/navigation_layers = 1
-item/75/preview = SubResource("ImageTexture_iww06")
+item/75/preview = SubResource("ImageTexture_aeodw")
 item/76/name = "road-square-barrier"
-item/76/mesh = SubResource("ArrayMesh_0qooy")
+item/76/mesh = SubResource("ArrayMesh_iww06")
 item/76/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/76/mesh_cast_shadow = 1
 item/76/shapes = []
 item/76/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/76/navigation_layers = 1
-item/76/preview = SubResource("ImageTexture_idi5n")
+item/76/preview = SubResource("ImageTexture_xy7nr")
 item/77/name = "road-square"
-item/77/mesh = SubResource("ArrayMesh_tsbhe")
+item/77/mesh = SubResource("ArrayMesh_idi5n")
 item/77/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/77/mesh_cast_shadow = 1
 item/77/shapes = []
 item/77/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/77/navigation_layers = 1
-item/77/preview = SubResource("ImageTexture_y3rpv")
+item/77/preview = SubResource("ImageTexture_4b78f")
 item/78/name = "road-straight-barrier-end"
-item/78/mesh = SubResource("ArrayMesh_t2bqn")
+item/78/mesh = SubResource("ArrayMesh_y3rpv")
 item/78/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/78/mesh_cast_shadow = 1
 item/78/shapes = []
 item/78/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/78/navigation_layers = 1
-item/78/preview = SubResource("ImageTexture_grka3")
+item/78/preview = SubResource("ImageTexture_i1ypy")
 item/79/name = "road-straight-barrier-half"
-item/79/mesh = SubResource("ArrayMesh_0jfik")
+item/79/mesh = SubResource("ArrayMesh_grka3")
 item/79/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/79/mesh_cast_shadow = 1
 item/79/shapes = []
 item/79/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/79/navigation_layers = 1
-item/79/preview = SubResource("ImageTexture_3l5em")
+item/79/preview = SubResource("ImageTexture_obkiy")
 item/80/name = "road-straight-barrier"
-item/80/mesh = SubResource("ArrayMesh_ckbs8")
+item/80/mesh = SubResource("ArrayMesh_a4w03")
 item/80/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/80/mesh_cast_shadow = 1
 item/80/shapes = []
 item/80/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/80/navigation_layers = 1
-item/80/preview = SubResource("ImageTexture_7qgjl")
+item/80/preview = SubResource("ImageTexture_eqj32")
 item/81/name = "road-straight-half"
-item/81/mesh = SubResource("ArrayMesh_qw8b6")
+item/81/mesh = SubResource("ArrayMesh_7qgjl")
 item/81/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/81/mesh_cast_shadow = 1
 item/81/shapes = []
 item/81/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/81/navigation_layers = 1
-item/81/preview = SubResource("ImageTexture_l1rn3")
+item/81/preview = SubResource("ImageTexture_7g6ri")
 item/82/name = "road-straight"
-item/82/mesh = SubResource("ArrayMesh_ayo6w")
+item/82/mesh = SubResource("ArrayMesh_l1rn3")
 item/82/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/82/mesh_cast_shadow = 1
 item/82/shapes = [SubResource("ConvexPolygonShape3D_pqwt4"), Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)]
 item/82/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/82/navigation_layers = 1
-item/82/preview = SubResource("ImageTexture_o7lct")
+item/82/preview = SubResource("ImageTexture_t7uv1")
 item/83/name = "sign-highway-detailed"
-item/83/mesh = SubResource("ArrayMesh_u86d0")
+item/83/mesh = SubResource("ArrayMesh_o7lct")
 item/83/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/83/mesh_cast_shadow = 1
 item/83/shapes = []
 item/83/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/83/navigation_layers = 1
-item/83/preview = SubResource("ImageTexture_5l1fv")
+item/83/preview = SubResource("ImageTexture_l5ymp")
 item/84/name = "sign-highway-wide"
-item/84/mesh = SubResource("ArrayMesh_gcyex")
+item/84/mesh = SubResource("ArrayMesh_5l1fv")
 item/84/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/84/mesh_cast_shadow = 1
 item/84/shapes = []
 item/84/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/84/navigation_layers = 1
-item/84/preview = SubResource("ImageTexture_vk0b0")
+item/84/preview = SubResource("ImageTexture_r6pq3")
 item/85/name = "sign-highway"
-item/85/mesh = SubResource("ArrayMesh_3sawu")
+item/85/mesh = SubResource("ArrayMesh_vk0b0")
 item/85/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/85/mesh_cast_shadow = 1
 item/85/shapes = []
 item/85/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/85/navigation_layers = 1
-item/85/preview = SubResource("ImageTexture_uvf4r")
+item/85/preview = SubResource("ImageTexture_44b8l")
 item/86/name = "tile-high"
-item/86/mesh = SubResource("ArrayMesh_6fqpg")
+item/86/mesh = SubResource("ArrayMesh_uvf4r")
 item/86/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/86/mesh_cast_shadow = 1
 item/86/shapes = []
 item/86/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/86/navigation_layers = 1
-item/86/preview = SubResource("ImageTexture_o83jk")
+item/86/preview = SubResource("ImageTexture_xd5xr")
 item/87/name = "tile-low"
-item/87/mesh = SubResource("ArrayMesh_laaf4")
+item/87/mesh = SubResource("ArrayMesh_o83jk")
 item/87/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/87/mesh_cast_shadow = 1
 item/87/shapes = []
 item/87/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/87/navigation_layers = 1
-item/87/preview = SubResource("ImageTexture_1gsi4")
+item/87/preview = SubResource("ImageTexture_l01fc")
 item/88/name = "tile-slant"
-item/88/mesh = SubResource("ArrayMesh_5jrry")
+item/88/mesh = SubResource("ArrayMesh_1gsi4")
 item/88/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/88/mesh_cast_shadow = 1
 item/88/shapes = []
 item/88/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/88/navigation_layers = 1
-item/88/preview = SubResource("ImageTexture_ovlaq")
+item/88/preview = SubResource("ImageTexture_sr0gb")
 item/89/name = "tile-slantHigh"
-item/89/mesh = SubResource("ArrayMesh_igyna")
+item/89/mesh = SubResource("ArrayMesh_ovlaq")
 item/89/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/89/mesh_cast_shadow = 1
 item/89/shapes = []
 item/89/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/89/navigation_layers = 1
-item/89/preview = SubResource("ImageTexture_sse6q")
+item/89/preview = SubResource("ImageTexture_ot24r")
 item/90/name = "traffic-light-hanging"
-item/90/mesh = SubResource("ArrayMesh_si0eu")
+item/90/mesh = SubResource("ArrayMesh_kmh65")
 item/90/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/90/mesh_cast_shadow = 1
 item/90/shapes = []
 item/90/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/90/navigation_layers = 1
-item/90/preview = SubResource("ImageTexture_pcg0h")
+item/90/preview = SubResource("ImageTexture_uj8cr")
 item/91/name = "traffic-light-object-hanging"
-item/91/mesh = SubResource("ArrayMesh_aijgn")
+item/91/mesh = SubResource("ArrayMesh_pcg0h")
 item/91/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/91/mesh_cast_shadow = 1
 item/91/shapes = []
 item/91/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/91/navigation_layers = 1
-item/91/preview = SubResource("ImageTexture_p1dt3")
+item/91/preview = SubResource("ImageTexture_yof4l")
 item/92/name = "traffic-light-object-horizontal"
-item/92/mesh = SubResource("ArrayMesh_acwc5")
+item/92/mesh = SubResource("ArrayMesh_p1dt3")
 item/92/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/92/mesh_cast_shadow = 1
 item/92/shapes = []
 item/92/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/92/navigation_layers = 1
-item/92/preview = SubResource("ImageTexture_pfq4q")
+item/92/preview = SubResource("ImageTexture_qbn0m")
 item/93/name = "traffic-light-object-vertical"
-item/93/mesh = SubResource("ArrayMesh_u8b8o")
+item/93/mesh = SubResource("ArrayMesh_pfq4q")
 item/93/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/93/mesh_cast_shadow = 1
 item/93/shapes = []
 item/93/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/93/navigation_layers = 1
-item/93/preview = SubResource("ImageTexture_u2bfj")
+item/93/preview = SubResource("ImageTexture_2gv1p")
 item/94/name = "traffic-light"
-item/94/mesh = SubResource("ArrayMesh_rxabe")
+item/94/mesh = SubResource("ArrayMesh_u2bfj")
 item/94/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/94/mesh_cast_shadow = 1
 item/94/shapes = []
 item/94/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 item/94/navigation_layers = 1
-item/94/preview = SubResource("ImageTexture_pnhwm")
+item/94/preview = SubResource("ImageTexture_atxv0")
